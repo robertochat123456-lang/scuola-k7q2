@@ -38,14 +38,28 @@ def scarica(utente, password):
         pg = b.new_page(viewport={"width": 820, "height": 1180})
         try:
             pg.goto(URL, wait_until="networkidle")
-            pg.locator("input:not([type=password]):not([type=hidden]):not([type=checkbox])").first.fill(utente)
-            pg.locator("input[type=password]").first.fill(password)
-            pg.locator("input[type=password]").first.press("Enter")
+            campo_u = pg.get_by_placeholder("Inserisci qui il tuo codice utente")
+            campo_p = pg.get_by_placeholder("Inserisci qui la tua password")
+            campo_u.wait_for(timeout=15000)
+            campo_u.click(); campo_u.press_sequentially(utente, delay=40)
+            campo_p.click(); campo_p.press_sequentially(password, delay=40)
+            try:
+                pg.get_by_role("button", name="Entra", exact=True).click(timeout=4000)
+            except Exception:
+                pg.get_by_text("Entra", exact=True).first.click(timeout=4000)
+            try:
+                campo_p.wait_for(state="detached", timeout=20000)
+            except Exception:
+                pass
             pg.wait_for_load_state("networkidle")
             pg.wait_for_timeout(2000)
-            pw = pg.locator("input[type=password]")
-            if pw.count() and pw.first.is_visible():
-                raise RuntimeError("LOGIN NON RIUSCITO: la pagina di accesso e' ancora visibile")
+            if campo_p.count() and campo_p.first.is_visible():
+                msg = ""
+                try:
+                    msg = pg.locator("[role=alert], [class*=error i], [class*=notif i]").first.inner_text(timeout=1500)[:100]
+                except Exception:
+                    pass
+                raise RuntimeError("LOGIN NON RIUSCITO: la pagina di accesso e' ancora visibile. Messaggio del sito: " + (msg or "nessuno"))
             try:
                 apri_voce(pg, "Argomenti e Compiti")
             except RuntimeError as e:
