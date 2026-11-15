@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Scuola</title>
+<style>
+:root{--bg:#f6f4ef;--sf:#fff;--tx:#1d2330;--mu:#7a8190;--ln:#e4e1d8;--ac:#2f5bd8;--r:#d9452f;--g:#2a9d6a;color-scheme:light}
+@media (prefers-color-scheme:dark){:root{--bg:#14171f;--sf:#1e2330;--tx:#eceef4;--mu:#939bad;--ln:#2e3445;--ac:#7c9bff;--r:#ff7a63;--g:#5fd0a0;color-scheme:dark}}
+*{box-sizing:border-box}
+body{margin:0 auto;max-width:560px;padding:calc(10px + env(safe-area-inset-top,0px)) 12px calc(20px + env(safe-area-inset-bottom,0px));background:var(--bg);color:var(--tx);font:16px/1.4 "Avenir Next",Avenir,"Segoe UI",system-ui,sans-serif}
+h1,h2{font-family:Georgia,"Times New Roman",serif;margin:0;text-transform:capitalize}
+h1{font-size:26px}h2{font-size:20px;margin-bottom:10px}
+button,input,select{font:inherit;color:inherit;background:var(--sf);border:1px solid var(--ln);border-radius:10px;padding:9px 12px}
+input,select{width:100%}
+button{cursor:pointer}button.p{background:var(--ac);border-color:var(--ac);color:#fff}
+.tabs{display:flex;gap:6px;margin:8px 0 12px}.tabs button{flex:1}.tabs button.on{background:var(--ac);border-color:var(--ac);color:#fff}
+.bar{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px}.bar div{display:flex;gap:6px}
+.dow,.grid{display:grid;grid-template-columns:repeat(7,1fr);gap:4px}
+.dow div{text-align:center;color:var(--mu);font-size:12px}
+.d{min-height:72px;padding:4px;text-align:left;display:flex;flex-direction:column;gap:2px;overflow:hidden}
+.d.o{opacity:.45}.d.t{border-color:var(--ac);box-shadow:inset 0 0 0 1px var(--ac)}
+.d b{font-size:13px}.d.t b{color:var(--ac)}
+.pill{font-size:10px;line-height:1.2;border-radius:4px;padding:1px 3px;color:#fff;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.pr{background:var(--r)}.pg{background:var(--g);color:#102}
+.more{font-size:10px;color:var(--mu)}
+.sheet{position:fixed;inset:0;background:rgba(0,0,0,.45);display:none;align-items:flex-end;justify-content:center;z-index:5}.sheet.on{display:flex}
+.card{background:var(--bg);width:100%;max-width:560px;max-height:88%;overflow:auto;border-radius:18px 18px 0 0;padding:16px 16px calc(16px + env(safe-area-inset-bottom,0px))}
+.it{display:flex;gap:8px;align-items:flex-start;background:var(--sf);border:1px solid var(--ln);border-radius:10px;padding:8px 10px;margin-bottom:6px}
+.dot{width:10px;height:10px;border-radius:3px;margin-top:6px;flex:none}.dot.r{background:var(--r)}.dot.g{background:var(--g)}
+.it span{flex:1;word-break:break-word}small{display:block;color:var(--mu)}
+.x{padding:2px 8px;color:var(--mu)}
+.row{display:flex;gap:6px;margin-top:8px}
+.mat{display:flex;justify-content:space-between;width:100%;margin-bottom:6px;text-align:left}
+.note{color:var(--mu);font-size:13px}
+pre{white-space:pre-wrap;word-break:break-word;background:var(--sf);border:1px solid var(--ln);border-radius:10px;padding:10px;font:14px/1.45 inherit}
+</style>
+</head>
+<body>
+<h1>Scuola</h1>
+<div class="tabs" id="tabs"><button data-tab="cal" class="on">Calendario</button><button data-tab="mat">Materie</button><button data-tab="voti">Voti</button></div>
+<main id="v"></main>
+<div class="sheet" id="sheet"><div class="card" id="card"></div></div>
+<script>
+const MESI=["gennaio","febbraio","marzo","aprile","maggio","giugno","luglio","agosto","settembre","ottobre","novembre","dicembre"];
+const KEY="scuola:note:v1";
+const $=id=>document.getElementById(id);
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const iso=d=>d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");
+let voci=[],note=[],tab="cal",sel=null,errDati=false,votiTesto="",votiMsg="";
+let cur=new Date();cur.setDate(1);
+try{note=JSON.parse(localStorage.getItem(KEY)||"[]")}catch(e){note=[]}
+const salva=()=>{try{localStorage.setItem(KEY,JSON.stringify(note))}catch(e){}};
+const materie=()=>[...new Set([...voci.map(x=>x.m),...note.map(x=>x.m)].filter(Boolean))].sort();
+
+fetch("dati.json?"+Date.now()).then(r=>r.json()).then(j=>{voci=j.voci||[]}).catch(()=>{errDati=true}).finally(render);
+
+function render(){
+  document.querySelectorAll("#tabs button").forEach(b=>b.classList.toggle("on",b.dataset.tab===tab));
+  $("v").innerHTML=tab==="cal"?vistaCal():tab==="mat"?vistaMat():vistaVoti();
+}
+function vistaCal(){
+  const first=new Date(cur.getFullYear(),cur.getMonth(),1),off=(first.getDay()+6)%7;
+  const start=new Date(first);start.setDate(1-off);
+  const oggi=iso(new Date());let h="";
+  for(let i=0;i<42;i++){
+    const d=new Date(start);d.setDate(start.getDate()+i);
+    if(i>=35&&d.getMonth()!==cur.getMonth())break;
+    const k=iso(d),a=voci.filter(x=>x.d===k).map(x=>`<div class="pill pr">${esc(x.t)}</div>`),
+      b=note.filter(x=>x.d===k).map(x=>`<div class="pill pg">${esc(x.text)}</div>`),all=a.concat(b);
+    h+=`<button class="d${d.getMonth()!==cur.getMonth()?" o":""}${k===oggi?" t":""}" data-day="${k}"><b>${d.getDate()}</b>${all.slice(0,2).join("")}${all.length>2?`<div class="more">+${all.length-2}</div>`:""}</button>`;
+  }
+  return `<div class="bar"><h2>${MESI[cur.getMonth()]} ${cur.getFullYear()}</h2><div><button data-nav="-1" aria-label="Mese precedente">‹</button><button data-nav="0">Oggi</button><button data-nav="1" aria-label="Mese successivo">›</button></div></div>
+  <div class="dow"><div>Lun</div><div>Mar</div><div>Mer</div><div>Gio</div><div>Ven</div><div>Sab</div><div>Dom</div></div><div class="grid">${h}</div>
+  <p class="note"><span class="dot r" style="display:inline-block"></span> compiti da Mastercom · <span class="dot g" style="display:inline-block"></span> le tue note${errDati?" · Non riesco a caricare i compiti: riprova tra poco.":""}</p>`;
+}
+function vistaMat(){
+  const m=materie();
+  return `<h2>Materie</h2>`+(m.length?m.map(x=>`<button class="mat" data-mat="${esc(x)}"><span>${esc(x)}</span><span class="note">${voci.filter(v=>v.m===x).length} compiti · ${note.filter(n=>n.m===x).length} note</span></button>`).join(""):`<p class="note">Le materie compaiono quando arrivano i compiti da Mastercom.</p>`)
+   +`<button class="mat" data-mat="">Note senza materia</button>`;
+}
+function vistaVoti(){
+  return `<h2>Voti</h2><p class="note">I voti sono cifrati: solo con la tua password si leggono.</p>
+  ${votiTesto?`<pre>${esc(votiTesto)}</pre>`:`<input type="password" id="pw" placeholder="Password dei voti" autocomplete="off"><div class="row"><button class="p" id="sblocca" style="width:100%">Sblocca</button></div>`}
+  ${votiMsg?`<p class="note">${esc(votiMsg)}</p>`:""}`;
+}
+async function decifra(j,pw){
+  const b=s=>Uint8Array.from(atob(s),c=>c.charCodeAt(0));
+  const k0=await crypto.subtle.importKey("raw",new TextEncoder().encode(pw),"PBKDF2",false,["deriveKey"]);
+  const k=await crypto.subtle.deriveKey({name:"PBKDF2",salt:b(j.s),iterations:200000,hash:"SHA-256"},k0,{name:"AES-GCM",length:256},false,["decrypt"]);
+  return new TextDecoder().decode(await crypto.subtle.decrypt({name:"AES-GCM",iv:b(j.i)},k,b(j.c)));
+}
+function foglio(h){$("card").innerHTML=h;$("sheet").classList.add("on")}
+function chiudi(){$("sheet").classList.remove("on");render()}
+function modulo(conMateria,conData){
+  return `<input id="nt" placeholder="Cosa vuoi aggiungere?">`
+   +(conMateria?`<div class="row"><select id="nm"><option value="">Nessuna materia</option>${materie().map(x=>`<option>${esc(x)}</option>`).join("")}</select></div>`:"")
+   +(conData?`<div class="row"><input type="date" id="nd"></div>`:"")
+   +`<div class="row"><button class="p" id="add" style="flex:1">Aggiungi</button><button id="chiudi">Chiudi</button></div>`;
+}
+function giorno(k){
+  sel={d:k};
+  const dv=voci.filter(x=>x.d===k),nn=note.filter(x=>x.d===k);
+  foglio(`<h2>${new Date(k+"T12:00:00").toLocaleDateString("it-IT",{weekday:"long",day:"numeric",month:"long"})}</h2>`
+   +dv.map(x=>`<div class="it"><i class="dot r"></i><span>${esc(x.t)}<small>${esc(x.m||"Compito")}${x.f?" · fatto":""}</small></span></div>`).join("")
+   +nn.map(n=>`<div class="it"><i class="dot g"></i><span>${esc(n.text)}<small>${esc(n.m||"Nota personale")}</small></span><button class="x" data-del="${n.id}" aria-label="Elimina">✕</button></div>`).join("")
+   +(dv.length+nn.length?"":`<p class="note">Niente in questo giorno.</p>`)+modulo(true,false));
+}
+function materia(m){
+  sel={m};
+  const dv=voci.filter(x=>x.m===m).sort((a,b)=>b.d.localeCompare(a.d)).slice(0,20),nn=note.filter(x=>x.m===m);
+  foglio(`<h2>${esc(m||"Note senza materia")}</h2>`
+   +nn.map(n=>`<div class="it"><i class="dot g"></i><span>${esc(n.text)}<small>${n.d?new Date(n.d+"T12:00:00").toLocaleDateString("it-IT",{day:"numeric",month:"long"}):"Senza data"}</small></span><button class="x" data-del="${n.id}" aria-label="Elimina">✕</button></div>`).join("")
+   +dv.map(x=>`<div class="it"><i class="dot r"></i><span>${esc(x.t)}<small>${new Date(x.d+"T12:00:00").toLocaleDateString("it-IT",{day:"numeric",month:"long"})}${x.f?" · fatto":""}</small></span></div>`).join("")
+   +modulo(false,true));
+}
+document.addEventListener("click",async e=>{
+  const t=e.target.closest("[data-tab],[data-day],[data-nav],[data-mat],[data-del],#add,#chiudi,#sblocca,#sheet");
+  if(!t)return;
+  if(t.dataset.tab){tab=t.dataset.tab;return render()}
+  if(t.dataset.day!==undefined)return giorno(t.dataset.day);
+  if(t.dataset.nav!==undefined){const n=+t.dataset.nav;if(n===0){cur=new Date();cur.setDate(1)}else cur.setMonth(cur.getMonth()+n);return render()}
+  if(t.dataset.mat!==undefined)return materia(t.dataset.mat);
+  if(t.dataset.del){note=note.filter(x=>x.id!==t.dataset.del);salva();return sel.d?giorno(sel.d):materia(sel.m)}
+  if(t.id==="add"){
+    const v=$("nt").value.trim();if(!v)return;
+    const n={id:Date.now()+""+Math.random().toString(36).slice(2,6),text:v,d:sel.d||($("nd")&&$("nd").value)||"",m:sel.m!==undefined?sel.m:($("nm")?$("nm").value:"")};
+    note.push(n);salva();return sel.d?giorno(sel.d):materia(sel.m);
+  }
+  if(t.id==="chiudi"||(t.id==="sheet"&&e.target.id==="sheet"))return chiudi();
+  if(t.id==="sblocca"){
+    const pw=$("pw").value;if(!pw)return;
+    try{
+      const r=await fetch("voti.enc?"+Date.now());
+      if(!r.ok){votiMsg="Nessun voto disponibile ancora.";return render()}
+      votiTesto=await decifra(await r.json(),pw);votiMsg="";
+    }catch(err){votiMsg="Password sbagliata, riprova."}
+    render();
+  }
+});
+</script>
+</body>
+</html>
