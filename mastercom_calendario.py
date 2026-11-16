@@ -32,21 +32,39 @@ def menu_visibile(pg):
     return "; ".join(viste[:15]) or "nessuna voce riconosciuta"
 
 
-def apri_voce(pg, nome, esatto=False):
-    try:
-        pg.get_by_text(nome, exact=esatto).first.click(timeout=3000)
+def apri_voce(pg, nome):
+    """Apre una voce del menu: se il menu laterale e' chiuso, prima lo apre con le tre lineette."""
+    def prova():
+        for el in pg.get_by_text(nome, exact=True).all():
+            try:
+                if el.is_visible():
+                    el.click(timeout=3000)
+                    return True
+            except Exception:
+                pass
+        return False
+    if prova():
         return
-    except Exception:
-        pass
-    for sel in ["header button", "[class*=menu i]", "[class*=burger i]", "button", "[role=button]"]:
+    for sel in ["text=☰", "header button", "[class*=burger i]", "[class*=menu i]"]:
         try:
             pg.locator(sel).first.click(timeout=2000)
             pg.wait_for_timeout(800)
-            pg.get_by_text(nome, exact=esatto).first.click(timeout=2500)
-            return
+            if prova():
+                return
         except Exception:
             continue
     raise RuntimeError(f"non trovo la voce '{nome}'. Pagina: {pg.url.split('?')[0]}. Voci viste: {menu_visibile(pg)}")
+
+
+def attendi_cambio(pg):
+    """Controlla che si sia aperta una pagina diversa dalla Home."""
+    pg.wait_for_load_state("networkidle")
+    pg.wait_for_timeout(1500)
+    try:
+        pg.get_by_text("Aggiorna Google Classroom").first.wait_for(state="hidden", timeout=10000)
+    except Exception:
+        raise RuntimeError("la pagina e' rimasta la Home dopo il clic sul menu")
+    pg.wait_for_timeout(2000)
 
 
 def scarica(utente, password):
@@ -85,16 +103,14 @@ def scarica(utente, password):
                 raise RuntimeError("LOGIN NON RIUSCITO (mi fermo, non riprovo). Messaggio del sito: " + (msg or "nessuno"))
             try:
                 apri_voce(pg, "Argomenti e Compiti")
+                attendi_cambio(pg)
             except RuntimeError as e:
                 raise RuntimeError("LOGIN OK ma " + str(e))
-            pg.wait_for_load_state("networkidle")
-            pg.wait_for_timeout(2500)
             compiti = pg.inner_text("body")
             voti = None
             try:
-                apri_voce(pg, "Voti", True)
-                pg.wait_for_load_state("networkidle")
-                pg.wait_for_timeout(2500)
+                apri_voce(pg, "Voti")
+                attendi_cambio(pg)
                 voti = pg.inner_text("body")
             except Exception as e:
                 print("Voti non letti:", e)
@@ -198,6 +214,9 @@ def main():
     pw_voti = os.environ.get("VOTI_PASS", "")
     compiti, voti = scarica(utente, password)
     voci = analizza(compiti)
+    if not voci:
+        righe = len([r for r in compiti.splitlines() if r.strip()])
+        raise RuntimeError(f"Nessun compito riconosciuto nella pagina letta ({righe} righe): non salvo niente")
     os.makedirs(DOCS, exist_ok=True)
     with open(os.path.join(DOCS, "dati.json"), "w", encoding="utf-8") as f:
         json.dump({"voci": [{"d": v["data"].isoformat(), "m": v["materia"], "t": v["testo"], "f": v["fatto"]} for v in voci]}, f, ensure_ascii=False, indent=0)
