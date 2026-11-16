@@ -196,6 +196,12 @@ def analizza(testo):
             while i < n and (righe[i].startswith("Inserito il") or righe[i].startswith("(")):
                 i += 1
             continue
+        if r.startswith("Inserito il"):
+            buf = []                      # argomento di lezione senza compito: lo salto
+            i += 1
+            while i < n and righe[i].startswith("("):
+                i += 1
+            continue
         if not buf and r.isupper() and prossima not in STATI and len(r) > 2:
             materia = r.title()
         else:
@@ -263,11 +269,14 @@ def main():
         json.dump({"voci": [{"d": v["data"].isoformat(), "m": v["materia"], "t": v["testo"], "f": v["fatto"]} for v in voci]}, f, ensure_ascii=False, indent=0)
     with open(os.path.join(DOCS, "compiti.ics"), "w", encoding="utf-8", newline="") as f:
         f.write(crea_ics(voci))
-    if voti and len(pw_voti) >= 12:
+    righe_c = [r for r in compiti.replace("\t", " → ").splitlines() if r.strip()]
+    inizio = next((k for k, r in enumerate(righe_c) if "Elenco" in r), 0)
+    diagnostica = "\n\n=== TESTO COMPITI (primi 160 righe) ===\n" + "\n".join(righe_c[inizio:inizio + 160])
+    if (voti or compiti) and len(pw_voti) >= 12:
         with open(os.path.join(DOCS, "voti.enc"), "w", encoding="utf-8") as f:
-            f.write(cifra(voti, pw_voti))
+            f.write(cifra((voti or "(pagina voti non letta)") + diagnostica, pw_voti))
         print("voti salvati (cifrati)")
-    elif voti:
+    elif voti or compiti:
         print("Voti letti ma NON salvati: serve il segreto VOTI_PASS di almeno 12 caratteri")
     print(f"aggiornato, {len(voci)} voci")
 
