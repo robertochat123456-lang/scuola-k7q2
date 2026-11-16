@@ -4,4 +4,1366 @@ PRODID:-//Mastercom calendario//IT
 X-WR-CALNAME:Scuola (Mastercom)
 REFRESH-INTERVAL;VALUE=DURATION:PT15M
 X-PUBLISHED-TTL:PT15M
+BEGIN:VEVENT
+UID:4917d30d03eccd5d00c0959353234e629a6bd342@mastercom
+DTSTAMP:20261120T000000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:VERIFICA SCRITTA
+DESCRIPTION:VERIFICA SCRITTA
+END:VEVENT
+BEGIN:VEVENT
+UID:27df0c56fa4918fb02799c9c234c016fa06a4e28@mastercom
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Studiare Inferno\, Canto III\, vv. 1-78 letti\, analizzati e comme
+ ntati in classe.
+DESCRIPTION:Studiare Inferno\, Canto III\, vv. 1-78 letti\, analizzati e c
+ ommentati in classe.
+END:VEVENT
+BEGIN:VEVENT
+UID:d3392947ab1d3b90f7a525adfe7d5e405bf58f10@mastercom
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Diritto Ed Economia: Studiare fino a pagina 376
+DESCRIPTION:Diritto Ed Economia: Studiare fino a pagina 376
+END:VEVENT
+BEGIN:VEVENT
+UID:e40203dcb494c353167a193be84d772a9a54459b@mastercom
+DTSTAMP:20261118T000000Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:Diritto Ed Economia: Finire unità
+DESCRIPTION:Diritto Ed Economia: Finire unità
+END:VEVENT
+BEGIN:VEVENT
+UID:713141107c31115212eabfc3d052cf8377fac191@mastercom
+DTSTAMP:20261118T000000Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:Spagnolo: Estudiar en el libro y en los apuntes el marco literario
+  de la Edad Media: glosas\, literatura popular y culta\,
+DESCRIPTION:Spagnolo: Estudiar en el libro y en los apuntes el marco liter
+ ario de la Edad Media: glosas\, literatura popular y culta\, lírica y po
+  sia narrativa culta. Evaluación formativa
+END:VEVENT
+BEGIN:VEVENT
+UID:c3169850bdc572f18e9b3a6cb76fa2aa80c9ba3c@mastercom
+DTSTAMP:20261117T000000Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:Scienze Umane: Interrogazioni Scienze Umane: studiare Unità 1 e 9
+  del libro + slides in Classroom. Tambelli\, Bani\, Celli
+DESCRIPTION:Scienze Umane: Interrogazioni Scienze Umane: studiare Unità 1
+  e 9 del libro + slides in Classroom. Tambelli\, Bani\, Celli
+END:VEVENT
+BEGIN:VEVENT
+UID:7bcaf3712e0a9d7e5ea368d0b2f16cd3cf7d0cb3@mastercom
+DTSTAMP:20261117T000000Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:Scienze Umane: studiare pag 76 e 77. es. 38 pag 81\, es 122 pag 85
+ . es 172 pag 87. es 265 e 272 pag 91
+DESCRIPTION:Scienze Umane: studiare pag 76 e 77. es. 38 pag 81\, es 122 pa
+ g 85. es 172 pag 87. es 265 e 272 pag 91
+END:VEVENT
+BEGIN:VEVENT
+UID:f2f1276aaccdf0925ca50fa68fe96994cb7de2d7@mastercom
+DTSTAMP:20261116T000000Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:Scienze Umane: Interrogazioni Scienze Umane: studiare Unità 1 e 9
+  del libro + slides in Classroom. Nencini\, Cellai\, Gamb
+DESCRIPTION:Scienze Umane: Interrogazioni Scienze Umane: studiare Unità 1
+  e 9 del libro + slides in Classroom. Nencini\, Cellai\, Gambassi
+END:VEVENT
+BEGIN:VEVENT
+UID:747c3a0f587a61dece965a68989e24690446b84d@mastercom
+DTSTAMP:20261116T000000Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:Scienze Umane: Studiare argomenti affrontati alle pp. 109-114: Dol
+ ce Stil Novo e il rifiuto della poetica guittoniana\; d
+DESCRIPTION:Scienze Umane: Studiare argomenti affrontati alle pp. 109-114:
+  Dolce Stil Novo e il rifiuto della poetica guittoniana\; definizione esp
+ ressione\, caratteristiche tematiche e stilistiche\; esponenti\; nobiltà
+  spirituale\, ispirazione amorosa e selezione del pubblico (I mi son un
+ … da Pur XXIV). Questi argomenti andranno nelle prossime interrogazioni
+ . Portare la tipologia A per continuare lettura e correzione.
+END:VEVENT
+BEGIN:VEVENT
+UID:21f1e6462e1f703800a290196cf1eed68f206418@mastercom
+DTSTAMP:20261116T000000Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:Spagnolo: Estudiar las sustantivas con verbo 1 del grupo 1 en pasa
+ do (ejercicios colectivos). Sustantivas con verbo 1 de
+DESCRIPTION:Spagnolo: Estudiar las sustantivas con verbo 1 del grupo 1 en 
+ pasado (ejercicios colectivos). Sustantivas con verbo 1 del grupo 2. En u
+ n papel escribir 15 frases con verbo 1 del GRUPO 2 (cambiando el verbo en
+  cada frase)\, en forma afirmativa/negativa/interrogativa. Estudiar todos
+  los verbos del grupo 2 en la fotocopia en Classroom\, escribiendo la tra
+ ducción de cada uno.
+END:VEVENT
+BEGIN:VEVENT
+UID:99121a4a12055c7e864c8606e445f218f10a2d74@mastercom
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:- esercizi di consolidamento (13:10 - GABBRIELLI GABRIELLA) - addi
+ zione e sottrazione di frazioni algebriche (12:15 - GA
+DESCRIPTION:- esercizi di consolidamento (13:10 - GABBRIELLI GABRIELLA) - 
+ addizione e sottrazione di frazioni algebriche (12:15 - GABBRIELLI GABRIE
+ LLA) es 168\, 169\,182\, 183 pag 87
+END:VEVENT
+BEGIN:VEVENT
+UID:9d77166d60951d78ed34a4ebb2c1a3a995de0c81@mastercom
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Fisica - Consegna e discussione dei compiti (11:20 - NEGRELLO MATT
+ IA) INGLESE FROM THE ORIGINS TO BEOWULF - oral tests (
+DESCRIPTION:Fisica - Consegna e discussione dei compiti (11:20 - NEGRELLO 
+ MATTIA) INGLESE FROM THE ORIGINS TO BEOWULF - oral tests (10:05 - OLMASTR
+ ONI VALENTINA) SPAGNOLO Estudiar las oraciones sustantivas con verbos de 
+ actividad mental. Estudiar los verbos del grupo 1 (fotocopia en Classroom
+ ). Escribir en un papel 10 frases con verbo 1 afirmativo o interrogativo 
+ y 10 frases con verbo 1 negativo: en las 20 frases el verbo 1 nunca puede
+  ser el mismo\, tenéis que cambiarlo en cada frase. Coloro che non avran
+ no con sé il foglio riceveranno un richiamo\,
+END:VEVENT
+BEGIN:VEVENT
+UID:e3fcddfb6a1999037c642b2fe6e7cef4d3586d7a@mastercom
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:- Sustantivas con verbo 1 del grupo 1 en pasado (ejercicios colect
+ ivos). Sustantivas con verbo 1 del grupo 2. (09:10 - M
+DESCRIPTION:- Sustantivas con verbo 1 del grupo 1 en pasado (ejercicios co
+ lectivos). Sustantivas con verbo 1 del grupo 2. (09:10 - MAGNANEGO GIULIA
+ ) DIRITTO ED ECONOMIA - Condominio\, possesso e detenzione (08:15 - PINI 
+ MARIA ELENA) Studiare fino a pagina 33
+END:VEVENT
+BEGIN:VEVENT
+UID:e121ac527edc6b78a2ca170490c528c02caae48f@mastercom
+DTSTAMP:20261112T000000Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:Storia Dell'Arte: - La botanica nell’arte (11:20 - GIROMINI STEF
+ ANIA) Dante Inferno - inferno Canto III\, lettura analisi
+DESCRIPTION:Storia Dell'Arte: - La botanica nell’arte (11:20 - GIROMINI 
+ STEFANIA) Dante Inferno - inferno Canto III\, lettura analisi e commento 
+ vv. 1-78 (10:05 - CAMISOLI CHIARA) Studiare versi letti\, analizzati e co
+ mmentati: Canto I vv. 113-136 e Canto II\, vv. 7-12\, 31-36\, 52-99. Pren
+ dere visione della scheda di lettura caricata su Classroom da compilare d
+ urante lettura di Levi.
+END:VEVENT
+BEGIN:VEVENT
+UID:0f837c96a277771eadef8a969541739086b2f4e6@mastercom
+DTSTAMP:20261112T000000Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:Inglese: FROM THE ORIGINS TO BEOWULF - Oral tests (09:10 - OLMASTR
+ ONI VALENTINA) DIRITTO ED ECONOMIA - Teoria neoclassic
+DESCRIPTION:Inglese: FROM THE ORIGINS TO BEOWULF - Oral tests (09:10 - OLM
+ ASTRONI VALENTINA) DIRITTO ED ECONOMIA - Teoria neoclassica o marginalist
+ a (08:15 - PINI MARIA ELENA) Consegnare elaborato (per ieri) su classroom
+END:VEVENT
+BEGIN:VEVENT
+UID:7f2ba314498f4bdd61e1fd1c4c2fa3ae4ee57f09@mastercom
+DTSTAMP:20261111T000000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:Diritto Ed Economia: - Comunione e comproprietà (13:10 - PINI MAR
+ IA ELENA) Svolgere testo sulla esercitazione assegnata 
+DESCRIPTION:Diritto Ed Economia: - Comunione e comproprietà (13:10 - PINI
+  MARIA ELENA) Svolgere testo sulla esercitazione assegnata in classe
+END:VEVENT
+BEGIN:VEVENT
+UID:9d8ee468be5e0c5d2e0a474b549862a7ff65efe3@mastercom
+DTSTAMP:20261111T000000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:Spagnolo: - El marco literario de la Edad Media: glosas\, literatu
+ ra popular y culta\, lírica y po sia narrativa culta (12
+DESCRIPTION:Spagnolo: - El marco literario de la Edad Media: glosas\, lite
+ ratura popular y culta\, lírica y po sia narrativa culta (12:15 - MAGNAN
+ EGO GIULIA) Estudiar el marco social y artístico de la Edad Media apunte
+ s + pp.37\, 41\, 42 + esquema Classroom. Hacer todos los ejercicios pp.38
+ \; 1 p.41\; 1 p.42\; del 1 al 6 p.43. Evaluación formativa.
+END:VEVENT
+BEGIN:VEVENT
+UID:b01a0351673b00b008a5f4d361d3d2433d020f8d@mastercom
+DTSTAMP:20261111T000000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:Spagnolo: Studiare poesia letta analizzata e commentata di Jacopo 
+ da Lentini “Io m’aggio posto in core…” p. 80-81 (la po
+DESCRIPTION:Spagnolo: Studiare poesia letta analizzata e commentata di Jac
+ opo da Lentini “Io m’aggio posto in core…” p. 80-81 (la poesia no
+ n va in interrogazione). Portare tipologia A per proseguire correzione.
+END:VEVENT
+BEGIN:VEVENT
+UID:e9e35fc09cb62b2d9460abea842a1f6b12ac5e56@mastercom
+DTSTAMP:20261110T000000Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:Inglese: Prepare the picture and its description following the ins
+ tructions on Classroom
+DESCRIPTION:Inglese: Prepare the picture and its description following the
+  instructions on Classroom
+END:VEVENT
+BEGIN:VEVENT
+UID:c59f801f1791a4a72e3cbba910c7cd0c574b8026@mastercom
+DTSTAMP:20261110T000000Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:Scienze Umane: - Storia: lettura prologoe primi capitoli saggio "L
+ e crociate viste dagli arabi" (11:20 - FERRO PAOLO) - 
+DESCRIPTION:Scienze Umane: - Storia: lettura prologoe primi capitoli saggi
+ o "Le crociate viste dagli arabi" (11:20 - FERRO PAOLO) - Ripasso secondo
+  capitolo prima unità didattica (lotta per le investiture/crociate) (10:
+ 05 - FERRO PAOLO) - UdA 1 - La scommessa del Cristianesimo dalle origini 
+ al Monachesimo Dalla Persecuzione all’integrazione nell’Impero Romano
+  (09:10 - GIULIANO MARTA) - esercizi di semplificazione frazioni algebric
+ he (08:15 - GABBRIELLI GABRIELLA) es 107\,116\,117\,134\,135 pag 86
+END:VEVENT
+BEGIN:VEVENT
+UID:2a772452472fa98d760d26c957c8d6ff286f7248@mastercom
+DTSTAMP:20261109T000000Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+SUMMARY:Scienze Umane: - Storia: interrogazioni (13:10 - FERRO PAOLO) - An
+ alisi e commento poesia di Jacopo da Lentini “Io m’agg
+DESCRIPTION:Scienze Umane: - Storia: interrogazioni (13:10 - FERRO PAOLO) 
+ - Analisi e commento poesia di Jacopo da Lentini “Io m’aggio posto in
+  core…” p. 80-81. Lettura e correzione parte interpretazione tipologi
+ a A assegnata. (11:20 - CAMISOLI CHIARA) Sulla base delle indicazioni dat
+ e\, FARE TIPOLOGIA A “Su questa melodia graziosa e leggera” nella par
+ te restante di Produzione (La poesia e la tipologia A sono su Classroom).
+  Il mancato svolgimento dei compiti o l’assenza di materiale comporta u
+ na annotazione.
+END:VEVENT
+BEGIN:VEVENT
+UID:bb4ff5f15e83a831a0ce7c63a1462a24262c62a7@mastercom
+DTSTAMP:20261109T000000Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+SUMMARY:Scienze Umane: Studiare argomenti spiegati nelle lezioni precedent
+ i pp. 77-79. Cause e modalità di diffusione della liri
+DESCRIPTION:Scienze Umane: Studiare argomenti spiegati nelle lezioni prece
+ denti pp. 77-79. Cause e modalità di diffusione della lirica provenzale 
+ in Italia. La scuola siciliana. Caratteristiche della corte di Federico I
+ I\, temi e stile della lirica siciliana e differenze da quella provenzale
+  + studiare testo analizzato e commentato p. 83 Jacopo da Lentini: la fen
+ omenologia dell’amore. Questi argomenti vanno nelle interrogazioni di m
+ ercoledì.
+END:VEVENT
+BEGIN:VEVENT
+UID:73f6a097e3d2d26c6400d29e86e61032a1ba5294@mastercom
+DTSTAMP:20261109T000000Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+SUMMARY:Scienze Umane: Fisica - Verifica scritta (10:05 - NEGRELLO MATTIA)
+  Esercizi da svolgere in preparazione al compito: - Es
+DESCRIPTION:Scienze Umane: Fisica - Verifica scritta (10:05 - NEGRELLO MAT
+ TIA) Esercizi da svolgere in preparazione al compito: - Esercizi 1\, 2\, 
+ 3 e 7 a pagina 23 - Esercizio 9 a pagina 24 - Esercizi 16\, 20\, 25 a pag
+ ina 57 - Esercizi 30\, 31\, 32 a pagina 58
+END:VEVENT
+BEGIN:VEVENT
+UID:54a4f57047ec0aa12b61fd09c98fe885ea11f131@mastercom
+DTSTAMP:20261109T000000Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+SUMMARY:Spagnolo: - Las oraciones sustantivas con verbos de actividad ment
+ al (09:10 - MAGNANEGO GIULIA) Estudiar el pluscuamperf
+DESCRIPTION:Spagnolo: - Las oraciones sustantivas con verbos de actividad 
+ mental (09:10 - MAGNANEGO GIULIA) Estudiar el pluscuamperfecto de subjunt
+ ivo + repaso oraciones temporales y finales. Evaluación formativa sobre 
+ todo el programa de gramática. Ejercicios: 3 p.73\; 10-11 p.191. En "Gra
+ mática lista": estudiar p.208 + hacer todos los ejercicios p.209
+END:VEVENT
+BEGIN:VEVENT
+UID:9900181f126f58132b795446d1dbef528797fc1e@mastercom
+DTSTAMP:20261106T000000Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:- semplificazione frazioni algebriche_esercizi (13:10 - GABBRIELLI
+  GABRIELLA) - consegna verifiche e correzione. (12:15 
+DESCRIPTION:- semplificazione frazioni algebriche_esercizi (13:10 - GABBRI
+ ELLI GABRIELLA) - consegna verifiche e correzione. (12:15 - GABBRIELLI GA
+ BRIELLA) es 40\,41\,42 pag 81 es 14\,15\,16 pag 80 da eseguire su foglio 
+ a protocollo per consegna
+END:VEVENT
+BEGIN:VEVENT
+UID:8ae181b249f4205315baf8b9cb25aeb72ca6a8f3@mastercom
+DTSTAMP:20261105T000000Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:Storia Dell'Arte: Studiare le pagine messe su Classroom e spiegate
+  in classe
+DESCRIPTION:Storia Dell'Arte: Studiare le pagine messe su Classroom e spie
+ gate in classe
+END:VEVENT
+BEGIN:VEVENT
+UID:213f70e9e6b2e7df265807671e7c995a793aa081@mastercom
+DTSTAMP:20261105T000000Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:Storia Dell'Arte: Dante - Lettura analisi commento Canti I vv. 113
+ -136 e Canto II\, vv. 7-12\, 31-36\, 52-99. Assegnazione 
+DESCRIPTION:Storia Dell'Arte: Dante - Lettura analisi commento Canti I vv.
+  113-136 e Canto II\, vv. 7-12\, 31-36\, 52-99. Assegnazione scheda di le
+ ttura su Classroom per Levi. (10:05 - CAMISOLI CHIARA) Inferno versi lett
+ i analizzati e commentati fino vv. 113.
+END:VEVENT
+BEGIN:VEVENT
+UID:97f6a50efee98441f1a337ec1c93044039355cd2@mastercom
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:Diritto Ed Economia: - Limiti diritto di proprietà (13:10 - PINI 
+ MARIA ELENA) SPAGNOLO - El marco social y artístico de 
+DESCRIPTION:Diritto Ed Economia: - Limiti diritto di proprietà (13:10 - P
+ INI MARIA ELENA) SPAGNOLO - El marco social y artístico de la Edad Media
+  (12:15 - MAGNANEGO GIULIA) Estudiar los Reyes Católicos. El descubrimie
+ nto de América y sus implicaciones. Evaluación formativa.
+END:VEVENT
+BEGIN:VEVENT
+UID:30352dbf3efd92c56df25fae72e823bc7b9303c1@mastercom
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:Diritto Ed Economia: - Cause e modalità di diffusione della liric
+ a provenzale in Italia. La scuola siciliana. Caratteris
+DESCRIPTION:Diritto Ed Economia: - Cause e modalità di diffusione della l
+ irica provenzale in Italia. La scuola siciliana. Caratteristiche della co
+ rte di Federico II\, temi e stile della lirica siciliana e differenze da 
+ quella provenzale. Pp. 77-79 (10:05 - CAMISOLI CHIARA) In vista delle int
+ errogazioni\, ripassare tutti argomenti e testi svolti da inizio anno (co
+ mpresa poesia della tipologia A fatta 28 ottobre). Portare tipologia A pe
+ r proseguire correzione.
+END:VEVENT
+BEGIN:VEVENT
+UID:df65559edad43d5dbf8565f74f12b4c04e8a6017@mastercom
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+SUMMARY:Inglese: - Revision for oral test (13:10 - OLMASTRONI VALENTINA) C
+ reate Mind Maps about Anglo Saxon literature and Beowu
+DESCRIPTION:Inglese: - Revision for oral test (13:10 - OLMASTRONI VALENTIN
+ A) Create Mind Maps about Anglo Saxon literature and Beowulf (pp. 40\, 41
+ \, 44\, 45)
+END:VEVENT
+BEGIN:VEVENT
+UID:3b862f51299cdca332dd69eb940b8fc2427337ee@mastercom
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+SUMMARY:Scienze Umane: - Interrogazioni (12:15 - LA MARRA ALESSIA) Interro
+ gazioni Scienze Umane: studiare Unità 1 e 9 del libro 
+DESCRIPTION:Scienze Umane: - Interrogazioni (12:15 - LA MARRA ALESSIA) Int
+ errogazioni Scienze Umane: studiare Unità 1 e 9 del libro + slides in Cl
+ assroom. Battente\, Biagioni\, Cantù\, Breviglieri
+END:VEVENT
+BEGIN:VEVENT
+UID:9adfbd2dea84668e9b40418a7603e7c342354035@mastercom
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+SUMMARY:Scienze Umane: - Antropologia: il processo di costruzione dell’a
+ lterita\; etnocentrismo\, da costruzione identitaria a ide
+DESCRIPTION:Scienze Umane: - Antropologia: il processo di costruzione dell
+ ’alterita\; etnocentrismo\, da costruzione identitaria a ideologica\; r
+ elativismo culturale. (11:20 - LA MARRA ALESSIA) - Prima crociata: natura
+  spedizione\, regni crociati\, ordini monastico-cavallereschi (10:05 - FE
+ RRO PAOLO) - Ricordo dei cari defunti in cappellina (09:10 - GIULIANO MAR
+ TA) - frazioni algebriche esercizi di consolidamento (08:15 - GABBRIELLI 
+ GABRIELLA) studiare pag 70\, 71- es3\,4\,5 pag 80_ es 31\,32\,35 pag 81
+END:VEVENT
+BEGIN:VEVENT
+UID:f751b132c0c9d67382a33bc8756b29e4a10cd93f@mastercom
+DTSTAMP:20261102T000000Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:Scienze Umane: - Interrogazioni (13:10 - LA MARRA ALESSIA) Interro
+ gazioni Scienze Umane\, studiare Unità 1 e 9 del libro 
+DESCRIPTION:Scienze Umane: - Interrogazioni (13:10 - LA MARRA ALESSIA) Int
+ errogazioni Scienze Umane\, studiare Unità 1 e 9 del libro + slides in C
+ lassroom. Lanese\, Mancuso\, Rossi\, Sciuti.
+END:VEVENT
+BEGIN:VEVENT
+UID:527e1cc2b445a7fc4efcb277e829cf3d205bf46b@mastercom
+DTSTAMP:20261102T000000Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:Scienze Umane: - Crociate: appello di Clermont e caratteri general
+ i (12:15 - FERRO PAOLO) - Commento e analisi Introduzi
+DESCRIPTION:Scienze Umane: - Crociate: appello di Clermont e caratteri gen
+ erali (12:15 - FERRO PAOLO) - Commento e analisi Introduzione alla poesia
+  siciliana: esponenti\, caratteristiche tematiche e formali\, la corte di
+  Federico II. Analisi e commento poesia p. 83 Jacopo da Lentini: la fenom
+ enologia dell’amore\,. (11:20 - CAMISOLI CHIARA) Procurarsi libro di Pr
+ imo Levi\, La tregua e iniziare la lettura.
+END:VEVENT
+BEGIN:VEVENT
+UID:9cdbd1b120b34d7d4f9c791211ce2844871b7d36@mastercom
+DTSTAMP:20261102T000000Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:Scienze Umane: Ripassare Jacopone da Todi. pp. 64 e poesia Donna d
+ e Paradiso pp. 65-70\, con confronto fatto in classe tr
+DESCRIPTION:Scienze Umane: Ripassare Jacopone da Todi. pp. 64 e poesia Don
+ na de Paradiso pp. 65-70\, con confronto fatto in classe tra poetica e vi
+ sione di Jacopone e San Francesco (laudator mundi vs contemptus mundi). S
+ tudiare poesia letta e analizzata in classe (stile e temi) “Su questa m
+ elodia graziosa e leggera”e FARE TIPOLOGIA A nella parte di Comprension
+ e e analisi (non produzione. La poesia e la tipologia A sono su Classroom
+ ). Il mancato svolgimento dei compiti o l’assenza di materiale comporta
+  una annotazione.
+END:VEVENT
+BEGIN:VEVENT
+UID:0f7a1a9600a8898f00e21209879761aa5372833f@mastercom
+DTSTAMP:20261102T000000Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:Scienze Umane: Fisica - Svolti in classe gli esercizi assegnati pe
+ r casa sulla propagazione degli errori. (10:05 - NEGRE
+DESCRIPTION:Scienze Umane: Fisica - Svolti in classe gli esercizi assegnat
+ i per casa sulla propagazione degli errori. (10:05 - NEGRELLO MATTIA) Svo
+ lgere si seguenti esercizi: - Esercizio 6 a pagina 61 - Esercizi 1\, 2\, 
+ 3\, 5 e 8 a pagina 63
+END:VEVENT
+BEGIN:VEVENT
+UID:820bfb47f56d45d850c1d645b49a393bfc891f73@mastercom
+DTSTAMP:20261102T000000Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:Spagnolo: - Evaluación formativa. Las oraciones finales (09:10 - 
+ MAGNANEGO GIULIA) Evaluación formativa sobre gramática:
+DESCRIPTION:Spagnolo: - Evaluación formativa. Las oraciones finales (09:1
+ 0 - MAGNANEGO GIULIA) Evaluación formativa sobre gramática: repaso 4 pa
+ sados indicativo repaso futuro simple repaso presente de subjuntivo repas
+ o p. perfecto e imperfecto de subjuntivo repaso oraciones temporales + ne
+ xos temporales Recuperare eventuali compiti non svolti.
+END:VEVENT
+BEGIN:VEVENT
+UID:f589f0ce54117307147489d61c3856f6872f4ed1@mastercom
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:- esercizi di consolidamento (13:10 - GABBRIELLI GABRIELLA) - fraz
+ ioni algebriche: condizioni di esistenza (12:15 - GABB
+DESCRIPTION:- esercizi di consolidamento (13:10 - GABBRIELLI GABRIELLA) - 
+ frazioni algebriche: condizioni di esistenza (12:15 - GABBRIELLI GABRIELL
+ A) studiare pag 36_ es. 654\, 687 pag 65 _es 717\, 722\, 723 pag 66
+END:VEVENT
+BEGIN:VEVENT
+UID:2d805e954bf1033077fbd518b3538eefa3ad11dc@mastercom
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Fisica - Svolti esercizi assegnati per casa sulla propagazione deg
+ li errori a somma e differenza di grandezze fisiche. (
+DESCRIPTION:Fisica - Svolti esercizi assegnati per casa sulla propagazione
+  degli errori a somma e differenza di grandezze fisiche. (11:20 - NEGRELL
+ O MATTIA) Svolgere si seguenti esercizi: - Esercizi 28\, 30 e 32 a pagina
+  58 - Esercizio 5 e 7 a pagina 63
+END:VEVENT
+BEGIN:VEVENT
+UID:8cecd1a72e4d40aba94a32a28025cbde0f136f7b@mastercom
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Inglese: From the Origins to the Middle Ages - Beowulf plot (10:05
+  - OLMASTRONI VALENTINA) SPAGNOLO - Ejercicios colecti
+DESCRIPTION:Inglese: From the Origins to the Middle Ages - Beowulf plot (1
+ 0:05 - OLMASTRONI VALENTINA) SPAGNOLO - Ejercicios colectivos: repaso del
+  indefinido irregular y formación del imperfecto de subjuntivo (09:10 - 
+ MAGNANEGO GIULIA) Evaluación formativa sobre: imperfecto de subjuntivo (
+ también el indefinido de indicativo)\; perfecto de subjuntivo\; presente
+  de subjuntivo\; futuro simple. Apuntes en Classroom. Ejercicios libro mo
+ rado: 1-2 p.72\; toda la p.186\; 8-9 p.191
+END:VEVENT
+BEGIN:VEVENT
+UID:6d5e0bc3105d3004ac55c7157b1c2d8f20175ee3@mastercom
+DTSTAMP:20261029T000000Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+SUMMARY:Dante - Lettura analisi e commento Inferno fino vv. 54-113. (10:05
+  - CAMISOLI CHIARA) Dante. Dante. Studiare appunti: L’
+DESCRIPTION:Dante - Lettura analisi e commento Inferno fino vv. 54-113. (1
+ 0:05 - CAMISOLI CHIARA) Dante. Dante. Studiare appunti: L’intellettuale
+  impegnato nel Trecento. Il valore pragmatico della letteratura. Studiare
+  Canto I\, Inferno: vv1-54 commentati e analizzati. Interpretazione lette
+ rale e allegorica/simbolica. In relazione al percorso di civica (Dante\, 
+ Levi e Moresco) procurarsi lettura assegnata per dicembre di Moresco.
+END:VEVENT
+BEGIN:VEVENT
+UID:559861f077fb69946dd780a3ac69bfa95e82c4be@mastercom
+DTSTAMP:20261029T000000Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+SUMMARY:Inglese: From the Origins to the Middle Ages - Beowulf: plot and a
+ nalysis (09:10 - OLMASTRONI VALENTINA) Create Mind Map
+DESCRIPTION:Inglese: From the Origins to the Middle Ages - Beowulf: plot a
+ nd analysis (09:10 - OLMASTRONI VALENTINA) Create Mind Maps on History: p
+ ag. 28\, 29\, 30\, 31\, 32\, 33\, 37
+END:VEVENT
+BEGIN:VEVENT
+UID:56dd9cc406cd8e0e400d2e2bc919a3e624e176a2@mastercom
+DTSTAMP:20261028T000000Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:Spagnolo: - Los Reyes Católicos. El descubrimiento de América y 
+ sus implicaciones. (12:15 - MAGNANEGO GIULIA) Revisar el
+DESCRIPTION:Spagnolo: - Los Reyes Católicos. El descubrimiento de Améric
+ a y sus implicaciones. (12:15 - MAGNANEGO GIULIA) Revisar el marco histó
+ rico de la Edad Media y los 4 acontecimientos de 1492 (apuntes + pp.34-35
+ ). Evaluación formativa.
+END:VEVENT
+BEGIN:VEVENT
+UID:129601e26e0ae8ed595525c28a1c1c4b39f6b688@mastercom
+DTSTAMP:20261028T000000Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:Spagnolo: - Presentazione delle caratteristiche strutturali e tema
+ tiche della Tipologia A. Lettura\, analisi guidata (tem
+DESCRIPTION:Spagnolo: - Presentazione delle caratteristiche strutturali e 
+ tematiche della Tipologia A. Lettura\, analisi guidata (tematica e stilis
+ tica) e commento poesia (caricata su Classroom “Su questa melodia grazi
+ osa e leggera”. Assegnazione di una esercitazione Tipologia A sulla med
+ esima poesia. (11:20 - CAMISOLI CHIARA) - Ripasso Jacopone da Todi. Linee
+  biografiche e genere della lauda pp. 64 + testo letto e commentato poesi
+ a Donna de Paradiso pp. 65-70. Confronto di poetica e visione vita tra Ja
+ copone e San Francesco (laudator mundi vs contemptus mundi). (10:05 - CAM
+ ISOLI CHIARA) Ripassare pp. 54-62 poesia religiosa\, S. francesca e canti
+ co delle creature. + studiare Jacopone da Todi. Linee biografiche e gener
+ e della lauda pp. 64 + testo letto e commentato poesia Donna de Paradiso 
+ pp. 65-70.
+END:VEVENT
+BEGIN:VEVENT
+UID:be4caed18e1bb3f6f99a24e32bc6116ee4648b6c@mastercom
+DTSTAMP:20261027T000000Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
+SUMMARY:Inglese: Beowulf - how to describe a picture (13:10 - OLMASTRONI V
+ ALENTINA) Ripassa la storia di Beowulf Consegna calend
+DESCRIPTION:Inglese: Beowulf - how to describe a picture (13:10 - OLMASTRO
+ NI VALENTINA) Ripassa la storia di Beowulf Consegna calendario interrogaz
+ ioni
+END:VEVENT
+BEGIN:VEVENT
+UID:39dd34083f994285abe027ea99239f4cc2d28776@mastercom
+DTSTAMP:20261027T000000Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
+SUMMARY:Inglese: Study the helpsheet and complete the home posted on Class
+ room
+DESCRIPTION:Inglese: Study the helpsheet and complete the home posted on C
+ lassroom
+END:VEVENT
+BEGIN:VEVENT
+UID:7643a9e7a0f84ac92044bbf0e453267efa936e57@mastercom
+DTSTAMP:20261027T000000Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
+SUMMARY:Scienze Umane: - Antropologia: il metodo polifonico\; la rilevazio
+ ne oggettuale. (12:15 - LA MARRA ALESSIA) Interrogazion
+DESCRIPTION:Scienze Umane: - Antropologia: il metodo polifonico\; la rilev
+ azione oggettuale. (12:15 - LA MARRA ALESSIA) Interrogazioni Scienze Uman
+ e: studiare Unità 1 e 9 del libro + slides in Classroom. Grasso\, Tambel
+ li
+END:VEVENT
+BEGIN:VEVENT
+UID:9ef1eb5ee7d31e813839164efc8bce0db2875fd3@mastercom
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:Scienze Umane: - Interrogazioni (13:10 - LA MARRA ALESSIA) Interro
+ gazioni Scienze Umane\, studiare Unità 1 e 9 del libro 
+DESCRIPTION:Scienze Umane: - Interrogazioni (13:10 - LA MARRA ALESSIA) Int
+ errogazioni Scienze Umane\, studiare Unità 1 e 9 del libro + slides in C
+ lassroom. Parrini\, Pratesi\, Pifferi.
+END:VEVENT
+BEGIN:VEVENT
+UID:eaa6c4a80903564b0b6e67b9b72da6bd090fc75d@mastercom
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:Scienze Umane: - Interrogazioni (12:15 - FERRO PAOLO) - Ripasso po
+ esia religiosa\, S. francesca e cantico delle creature.
+DESCRIPTION:Scienze Umane: - Interrogazioni (12:15 - FERRO PAOLO) - Ripass
+ o poesia religiosa\, S. francesca e cantico delle creature. Jacopone da T
+ odi. Linee biografiche e genere della lauda pp. 64 + lettura e commento p
+ oesia Donna de Paradiso pp. 65-70. (11:20 - CAMISOLI CHIARA) Studiare tes
+ to letto\, analizzato e commentato tematicamente-stilisticamente p. 43 Qu
+ esto fermo voler di Daniel. Studiare pp. 50-59: I volgari italiani (lette
+ rari e non letterari)\, la diffusione della lirica trobadorica\, inquadra
+ mento (con schema fatto alla lavagna) sulla nascita letteratura Italiana 
+ (poesia religiosa\, siciliana\, siculo-toscana\, stilnovo e comico-realis
+ tica)\; Il contesto religioso del Duecento\, La poesia religiosa\, ordini
+  monastici e regola francescana + studiare testo Letto\, analizzato e com
+ mentato in classe (temi e stile) Cantico di Frate Sole di S.Francesco p. 
+ 60-61.
+END:VEVENT
+BEGIN:VEVENT
+UID:07c640077f53ee303cc06d3fd01f62916d3d21c0@mastercom
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:Scienze Umane: Fisica - Propagazione degli errori a misure indiret
+ te nel caso di: somma di grandezze\, differenza di gran
+DESCRIPTION:Scienze Umane: Fisica - Propagazione degli errori a misure ind
+ irette nel caso di: somma di grandezze\, differenza di grandezze\, prodot
+ to o rapporto di una grandezza per un numero. (10:05 - NEGRELLO MATTIA) S
+ PAGNOLO - El uso de mientras + subjuntivo. El imperfecto de subjuntivo: f
+ orma. Evaluación formativa (09:10 - MAGNANEGO GIULIA) Evaluación format
+ iva sobre: futuro simple\, participio pasado\, pretérito perfecto de sub
+ juntivo. Los apuntes los tenéis en el cuaderno y también están en Clas
+ sroom (carpetas "clases" y gramática"). En Gramática Lista podéis revi
+ sar el futuro simple en las pp.160 y 162\; los participios pasados irregu
+ lares en la p.96\; estudiar el pretérito perfecto en la parte superior d
+ e la p.208. En Gramática Lista ejercicios: 1 p.209\; todos en las pp.161
+ \,163\, 97.
+END:VEVENT
+BEGIN:VEVENT
+UID:9aca4d84ab18f42926c4dfca15c64ee3236c789e@mastercom
+DTSTAMP:20261023T000000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:esercizi di riepilogo pag 22\, 58\, 64\,65
+DESCRIPTION:esercizi di riepilogo pag 22\, 58\, 64\,65
+END:VEVENT
+BEGIN:VEVENT
+UID:3443b6b3db2775885c54de1def349066298e5679@mastercom
+DTSTAMP:20261023T000000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:ARGOMENTI DI VERIFICA: divisione polinomio/monomio_ divisione tra 
+ polinomi_ scomposizione polinomi: raccoglimento totale
+DESCRIPTION:ARGOMENTI DI VERIFICA: divisione polinomio/monomio_ divisione 
+ tra polinomi_ scomposizione polinomi: raccoglimento totale\, raccogliment
+ o parziale\, prodotti notevoli\, trinomio particolare\, Ruffini
+END:VEVENT
+BEGIN:VEVENT
+UID:6714aea39a6b80f740840ac571153f4c559bb335@mastercom
+DTSTAMP:20261023T000000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:VERIFICA SCRITTA IN CLASSE
+DESCRIPTION:VERIFICA SCRITTA IN CLASSE
+END:VEVENT
+BEGIN:VEVENT
+UID:e60901ebf84623ac3c32f9e99ac7a771947166d6@mastercom
+DTSTAMP:20261023T000000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:Fisica - Svolti in classe gli esercizi assegnati per casa su error
+ e relativo ed errore percentuale. (11:20 - NEGRELLO MA
+DESCRIPTION:Fisica - Svolti in classe gli esercizi assegnati per casa su e
+ rrore relativo ed errore percentuale. (11:20 - NEGRELLO MATTIA) Svolgere 
+ i seguenti esercizi su errore relativo e percentuale: - Esercizi 15\, 16\
+ , 17\, 18\, 25 a pagina 57
+END:VEVENT
+BEGIN:VEVENT
+UID:1d4e529eb16118497c55a861a71f7ab63c43dfba@mastercom
+DTSTAMP:20261023T000000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:Inglese: Anglo Saxon Poetry - Beowulf (10:05 - OLMASTRONI VALENTIN
+ A) Anglo Saxon Poetry - Beowulf (10:05 - OLMASTRONI VA
+DESCRIPTION:Inglese: Anglo Saxon Poetry - Beowulf (10:05 - OLMASTRONI VALE
+ NTINA) Anglo Saxon Poetry - Beowulf (10:05 - OLMASTRONI VALENTINA) Comple
+ te the History Summary posted on Classroom
+END:VEVENT
+BEGIN:VEVENT
+UID:59a80a8b04fb8fd53e824b04511245a785c8ecf5@mastercom
+DTSTAMP:20261023T000000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:Spagnolo: - Repaso del futuro simple. Pretérito perfecto de subju
+ ntivo. Corrección de los deberes sobre las temporales (
+DESCRIPTION:Spagnolo: - Repaso del futuro simple. Pretérito perfecto de s
+ ubjuntivo. Corrección de los deberes sobre las temporales (09:10 - MAGNA
+ NEGO GIULIA) Libro viola es 29 p.180. Ripassare bene i passati\, il futur
+ o simple e il congiuntivo presente.
+END:VEVENT
+BEGIN:VEVENT
+UID:63a96a1ebc5585405038fac42f60ac6840648f59@mastercom
+DTSTAMP:20261023T000000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:Spagnolo: En Gramática Lista estudiar p.262 y hacer todos los eje
+ rcicios p.263. Traed los dos libros también con los deb
+DESCRIPTION:Spagnolo: En Gramática Lista estudiar p.262 y hacer todos los
+  ejercicios p.263. Traed los dos libros también con los deberes para el 
+ lunes pasado
+END:VEVENT
+BEGIN:VEVENT
+UID:9e9f0727710d8f36f11ebc3b4e8cb10d66a619fb@mastercom
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+SUMMARY:- Ascolto brano "è non è" di Niccolò Fabi\, introduttiva al pen
+ siero di Parmenide e alla playlist condivisa (13:10 - FERR
+DESCRIPTION:- Ascolto brano "è non è" di Niccolò Fabi\, introduttiva al
+  pensiero di Parmenide e alla playlist condivisa (13:10 - FERRO PAOLO) ST
+ ORIA DELL'ARTE - Interrogazione (11:20 - GIROMINI STEFANIA) Dante - Dante
+ . Introduzione all’autore e alla Commedia\, Inferno. L’intellettuale 
+ impegnato nel Trecento. Il valore pragmatico della letteratura. Canto I\,
+  Inferno: commento e analisi vv. 1-54. Interpretazione letterale e allego
+ rica/simbolica. Illustrazione percorso di civica: Dante\, Levi e Moresco\
+ , con presentazione delle letture assegnate. (10:05 - CAMISOLI CHIARA) Da
+ lla data odierna\, il giovedì è dedicato all'Inferno di Dante. Portare 
+ il testo.
+END:VEVENT
+BEGIN:VEVENT
+UID:ec09f4c37c29ada36bae19c3b333fb44afc59233@mastercom
+DTSTAMP:20261021T000000Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+SUMMARY:Diritto Ed Economia: - Interrogazioni (13:10 - PINI MARIA ELENA) S
+ PAGNOLO - Attivo di classe (12:15 - MAGNANEGO GIULIA) 
+DESCRIPTION:Diritto Ed Economia: - Interrogazioni (13:10 - PINI MARIA ELEN
+ A) SPAGNOLO - Attivo di classe (12:15 - MAGNANEGO GIULIA) Estudiar el mar
+ co histórico de la Edad Media y los 4 acontecimientos de 1492 (apuntes +
+  pp.34-35). Evaluación formativa.
+END:VEVENT
+BEGIN:VEVENT
+UID:b2cc579ba0efc31ed8896330cf452a51a118b40b@mastercom
+DTSTAMP:20261021T000000Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+SUMMARY:Diritto Ed Economia: - Restituzione e correzione tema tipologia C 
+ (11:20 - CAMISOLI CHIARA) - Lettura\, analisi e comment
+DESCRIPTION:Diritto Ed Economia: - Restituzione e correzione tema tipologi
+ a C (11:20 - CAMISOLI CHIARA) - Lettura\, analisi e commento tematico-sti
+ listico poesia Questo fermo voler di Daniel. I volgari italiani (letterar
+ i e non letterari) e inquadramento (con schema alla lavagna) sulla nascit
+ a letteratura Italiana: poesia religiosa\, siciliana\, siculo-toscana\, s
+ tilnovo e comico-realistica. Il contesto religioso del Duecento\, La poes
+ ia religiosa\, ordini monastici e regola francescana. Pp. 50-59. Lettura\
+ , analisi e commento Cantico di Frate Sole di S.Francesco p. 60-61. (10:0
+ 5 - CAMISOLI CHIARA) Studiare poesia letta\, analizzata e commentata Gugl
+ ielmo d’Aquitania pp. 46-48\, quindi ripassare caratteristiche lirica p
+ rovenzale e le forme poetiche e lo stile provenzale p. 42.
+END:VEVENT
+BEGIN:VEVENT
+UID:952c317b5869c8ec6daab54ca987690036abad88@mastercom
+DTSTAMP:20261020T000000Z
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+SUMMARY:Inglese: Summer Readings - restituzione verifiche scritte (13:10 -
+  OLMASTRONI VALENTINA) SCIENZE UMANE - Antropologia\, p
+DESCRIPTION:Inglese: Summer Readings - restituzione verifiche scritte (13:
+ 10 - OLMASTRONI VALENTINA) SCIENZE UMANE - Antropologia\, processi di tra
+ smissione della cultura umana. Attività esperienziale a stazioni\, Focus
+  su inculturazione\, acculturazione\, socializzazione rovesciata. (12:15 
+ - LA MARRA ALESSIA) - Statuto disciplinare della Sociologia: scienza empi
+ rica\, sistematica\, oggettiva. Il criterio di avalutativita introdotto d
+ a M. Weber. (11:20 - LA MARRA ALESSIA) - Lotta per le investiture: scontr
+ o Enrico IV e Gregorio VII. Intervento normanno (con focus su origini). R
+ iferimento alle crociate (10:05 - FERRO PAOLO) - esercizi di consolidamen
+ ti su argomenti verifica (08:15 - GABBRIELLI GABRIELLA) es 635\,695\,693 
+ pag 65 es 78\,87 pag 16
+END:VEVENT
+BEGIN:VEVENT
+UID:cee89db6791181557d6cfd18c8f1999c6457a6c3@mastercom
+DTSTAMP:20261019T000000Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:Scienze Umane: - Il concetto antropologico di cultura da Tylor a B
+ orofsky (13:10 - LA MARRA ALESSIA) - Interrogazione (1
+DESCRIPTION:Scienze Umane: - Il concetto antropologico di cultura da Tylor
+  a Borofsky (13:10 - LA MARRA ALESSIA) - Interrogazione (12:15 - FERRO PA
+ OLO) - Lettura\, analisi e commento poesia Guglielmo d’Aquitania pp. 46
+ -48\, quindi ripasso caratteristiche lirica provenzale e correzione eserc
+ izi assegnati di analisi e comprensione. Le forme poetiche e lo stile pro
+ venzale p. 42. Programmazione interrogazioni programmate. (11:20 - CAMISO
+ LI CHIARA) Fisica - Definizione di precisione e di accuratezza delle misu
+ re. Errore relativo ed errore percentuale. Misure dirette e misure indire
+ tte. (10:05 - NEGRELLO MATTIA) SPAGNOLO - Nexos temporales y ejercicios c
+ olectivos sobre las temporales (09:10 - MAGNANEGO GIULIA) Estudiar las or
+ aciones temporales (p.60 y cuaderno). Ejercicios #Español 7-8-9-10 p.61\
+ ; 24-25-26-27-28 p.179
+END:VEVENT
+BEGIN:VEVENT
+UID:8b5e12462c7ae00e6768f607ee0b67b5360d7d04@mastercom
+DTSTAMP:20261016T000000Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:- esercizi di consolidamento su argomenti verifica (13:10 - GABBRI
+ ELLI GABRIELLA) - esercizi di consolidamento su argome
+DESCRIPTION:- esercizi di consolidamento su argomenti verifica (13:10 - GA
+ BBRIELLI GABRIELLA) - esercizi di consolidamento su argomenti verifica (1
+ 2:15 - GABBRIELLI GABRIELLA) Studiare pag 33\,34 e 35. Finire es.423\, 42
+ 4\,425\,426\,432\,435 pag 57
+END:VEVENT
+BEGIN:VEVENT
+UID:2e58091ea43d6c4c468ca3202331e51f6ad30790@mastercom
+DTSTAMP:20261016T000000Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:Fisica - Svolti in classe gli esercizi assegnati per casa: eserciz
+ i 9\, 10 e 12 a pagina 56. Svolto anche l’esercizio (in
+DESCRIPTION:Fisica - Svolti in classe gli esercizi assegnati per casa: ese
+ rcizi 9\, 10 e 12 a pagina 56. Svolto anche l’esercizio (in inglese) 4 
+ a pagina 61 (11:20 - NEGRELLO MATTIA) Svolgere i seguenti esercizi: 9\, 1
+ 0 e 12 a pagina 56.
+END:VEVENT
+BEGIN:VEVENT
+UID:065ca2fa98de35ca0497b4b9434b0b223e6edad9@mastercom
+DTSTAMP:20261016T000000Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:Inglese: Study 28\, 29\, 30\, 31 + complete ex. 2 pag. 28 + 2 pag.
+  30 + 3 pag. 31 Create Mind Maps about these pages
+DESCRIPTION:Inglese: Study 28\, 29\, 30\, 31 + complete ex. 2 pag. 28 + 2 
+ pag. 30 + 3 pag. 31 Create Mind Maps about these pages
+END:VEVENT
+BEGIN:VEVENT
+UID:3e7a4727a0d8d24771acf71a8fcb3c45daa0c4d4@mastercom
+DTSTAMP:20261016T000000Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:Inglese: Study the helpsheet and complete the worksheet on Classro
+ om
+DESCRIPTION:Inglese: Study the helpsheet and complete the worksheet on Cla
+ ssroom
+END:VEVENT
+BEGIN:VEVENT
+UID:e84fbc41a3727952c9e4e688a5b58b3156958385@mastercom
+DTSTAMP:20261016T000000Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:Spagnolo: - Las oraciones temporales y los nexos temporales (09:10
+  - MAGNANEGO GIULIA) En Gramática Lista: ejercicios p.
+DESCRIPTION:Spagnolo: - Las oraciones temporales y los nexos temporales (0
+ 9:10 - MAGNANEGO GIULIA) En Gramática Lista: ejercicios p.195\, revisar 
+ p.198 y hacer los ejercicios p.199
+END:VEVENT
+BEGIN:VEVENT
+UID:11eb1a0bc2ea2d57ff5b16d4e535cdb629337d64@mastercom
+DTSTAMP:20261016T000000Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:Spagnolo: Estudiar el imperativo afirmativo y negativo (apuntes + 
+ pp.40-41). Ejercicios 6-7-8-9-10 pp 40-41\; 27-28-29-30
+DESCRIPTION:Spagnolo: Estudiar el imperativo afirmativo y negativo (apunte
+ s + pp.40-41). Ejercicios 6-7-8-9-10 pp 40-41\; 27-28-29-30 pp 167-168
+END:VEVENT
+BEGIN:VEVENT
+UID:89c2f6cbdbb5336bf129965170a7aa88c35b2094@mastercom
+DTSTAMP:20261015T000000Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:- Assemblea di istituto (13:10 - FERRO PAOLO) - Assemblea di istit
+ uto (12:15 - FERRO PAOLO) STORIA DELL'ARTE - Corso sic
+DESCRIPTION:- Assemblea di istituto (13:10 - FERRO PAOLO) - Assemblea di i
+ stituto (12:15 - FERRO PAOLO) STORIA DELL'ARTE - Corso sicurezza (11:20 -
+  GIROMINI STEFANIA) - Corso sicurezza (10:05 - GIROMINI STEFANIA) Studiar
+ e concetti affrontati nella lezione precedente. Il medioevo e le sue cara
+ tteristiche pp.4-16: feudalesimo e vassallaggio\; scontro tra potere impe
+ riale e spirituale\; lotte di fazione guelfi e ghibellini\; oratores bell
+ atores laboratores\; movimenti pauperistici\; monaci amanuensi\; visione 
+ simbolica e allegorica con lettura testo T1 dal Fisiologo. pp. 13-14. Pre
+ ndere visione del libro assegnato da leggere per il 16 dicembre.
+END:VEVENT
+BEGIN:VEVENT
+UID:77bf072f5e1dc8e751c3592405b6289c60eb6853@mastercom
+DTSTAMP:20261015T000000Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:Inglese: - Corso sicurezza sul lavoro (09:10 - OLMASTRONI VALENTIN
+ A) DIRITTO ED ECONOMIA - Buongiorno\; corso sicurezza (
+DESCRIPTION:Inglese: - Corso sicurezza sul lavoro (09:10 - OLMASTRONI VALE
+ NTINA) DIRITTO ED ECONOMIA - Buongiorno\; corso sicurezza (08:15 - PINI M
+ ARIA ELENA) Finire unità economia
+END:VEVENT
+BEGIN:VEVENT
+UID:91210b066f335d6c6cf4d8a0565209e340d26286@mastercom
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261015
+SUMMARY:Diritto Ed Economia: - Ripasso (13:10 - PINI MARIA ELENA) Studiare
+  limiti nell'interesse pubblico
+DESCRIPTION:Diritto Ed Economia: - Ripasso (13:10 - PINI MARIA ELENA) Stud
+ iare limiti nell'interesse pubblico
+END:VEVENT
+BEGIN:VEVENT
+UID:5024a5c624d9fca95b0b8f429cc7ea5e2bfe113c@mastercom
+DTSTAMP:20261013T000000Z
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+SUMMARY:Inglese: The Origins and the Middle Ages - Mother Tongue teacher: 
+ Anglo-Saxon divinities (13:10 - OLMASTRONI VALENTINA) 
+DESCRIPTION:Inglese: The Origins and the Middle Ages - Mother Tongue teach
+ er: Anglo-Saxon divinities (13:10 - OLMASTRONI VALENTINA) SCIENZE UMANE -
+  Cooperative learning con shadow study technique: i diversi rami di studi
+ o dell’antropologia. (12:15 - LA MARRA ALESSIA) - Nascita della Sociolo
+ gia: il contesto storico-filosofico. (11:20 - LA MARRA ALESSIA) - Spiegaz
+ ione: analisi fonte: privilegium othonis\; riforme ecclesiastiche (monach
+ esimo cluniacense) (10:05 - FERRO PAOLO) - Scomposizione polinomi: metodo
+  Ruffini (08:15 - GABBRIELLI GABRIELLA) studiare pag 29\,30\,31\,32. es 2
+ 98\,301 pag 51 es 355\, 356 pag 53 es 375\, 376 pag 54 es 383 pag 55 (gua
+ rdare es 382 a pag 55 già svolto)
+END:VEVENT
+BEGIN:VEVENT
+UID:e5c3d20f85a682c8ce94f6dfc99d5c38b3e1d6fc@mastercom
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:Scienze Umane: - Antropologia: il metodo comparativo. Presentazion
+ e di lista per elezione rappresentanti di Istituto. (1
+DESCRIPTION:Scienze Umane: - Antropologia: il metodo comparativo. Presenta
+ zione di lista per elezione rappresentanti di Istituto. (13:10 - LA MARRA
+  ALESSIA) Completare l’attività iniziata in classe e caricare la sched
+ a in Classroom. Cercare l’immagine di un dipinto\, risalente al periodo
+  fra il 1500 e il 1800\, che raffiguri al suo interno almeno un bambino f
+ ra i personaggi.
+END:VEVENT
+BEGIN:VEVENT
+UID:d84c6e4b8fb0f3c7f6ededa82177fb5a2db65dc9@mastercom
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:Scienze Umane: - Inizio interrogazioni (12:15 - FERRO PAOLO) - Il 
+ medioevo e le sue caratteristiche pp.4-16: feudalesimo
+DESCRIPTION:Scienze Umane: - Inizio interrogazioni (12:15 - FERRO PAOLO) -
+  Il medioevo e le sue caratteristiche pp.4-16: feudalesimo e vassallaggio
+ \; scontro tra potere imperiale e spirituale\; lotte di fazione guelfi e 
+ ghibellini\; oratores bellatores laboratores\; movimenti pauperistici\; m
+ onaci amanuensi\; visione simbolica e allegorica con lettura testo T1 dal
+  Fisiologo. pp. 13-14. Organizzazione delle programmazioni e assegnazione
+  scadenza libro da leggere per 16 dicembre. (11:20 - CAMISOLI CHIARA) Por
+ tare Analisi e comprensione scritta sul testo Guglielmo d’Aquitania p. 
+ 48 fatto in classe. Segue revisione + portare compiti assegnati per 1/10.
+  Dal 28 ottobre iniziano le interrogazioni. Nel caso di diritto alla prog
+ rammazione\, comunicare alla docente la data di preferenza
+END:VEVENT
+BEGIN:VEVENT
+UID:f564f1ea52786f914e9494c5bb65c3d10ef3dffe@mastercom
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:Scienze Umane: Fisica - Recap su come riportare la stima di una gr
+ andezza fisica per misure singole e misure ripetute. A
+DESCRIPTION:Scienze Umane: Fisica - Recap su come riportare la stima di un
+ a grandezza fisica per misure singole e misure ripetute. Arrotondamento. 
+ Esercizio 5 a pagina 56 e parte di esercizio 6 a pagina 56 (10:05 - NEGRE
+ LLO MATTIA) SPAGNOLO - Imperativo negativo y repaso afirmativo (09:10 - M
+ AGNANEGO GIULIA) Revisar el presente de subjuntivo\, regular e irregular 
+ (en "Gramática lista" pp.190 y 192-193). En "Gramática Lista" haced los
+  ejercicios en las pp.191 y 194. Traed también los viejos ejercicios sob
+ re los pasados. Como y asabéis\, podremos prever una evaluación formati
+ va.
+END:VEVENT
+BEGIN:VEVENT
+UID:450a7ed95d6420c7f733789037e9ae8705cf22a3@mastercom
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:- esercizi di consolidamento su argomenti spiegati (13:10 - GABBRI
+ ELLI GABRIELLA) - correzione compiti. scomposizione po
+DESCRIPTION:- esercizi di consolidamento su argomenti spiegati (13:10 - GA
+ BBRIELLI GABRIELLA) - correzione compiti. scomposizione polinomi mediante
+  prodotti notevoli\, scomposizione di particolari trinomi di secondo grad
+ o (12:15 - GABBRIELLI GABRIELLA) Studiare pag 26\,27\,28. Es 12\, 38\, 44
+ \, 62 pag 42 es 104\, 107 pag 44
+END:VEVENT
+BEGIN:VEVENT
+UID:2b5cf75b937042ebe147c532552b1bd832dc21f5@mastercom
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:Fisica - Valore attendibile ed errore assoluto. Come rappresentare
+  il risultato di una misura nel caso di misure singole
+DESCRIPTION:Fisica - Valore attendibile ed errore assoluto. Come rappresen
+ tare il risultato di una misura nel caso di misure singole o ripetute. Im
+ portanza dalla stima dell’errore nel confronto tra stime diverse della 
+ stessa grandezza fisica. (11:20 - NEGRELLO MATTIA) INGLESE From the Origi
+ ns to the Middle Ages - Romans\, Anglo-Saxons and Vikings (10:05 - OLMAST
+ RONI VALENTINA) SPAGNOLO - Presentaciones sobre los personajes del mundo 
+ hispano (09:10 - MAGNANEGO GIULIA) DIRITTO ED ECONOMIA - Limiti al diritt
+ o di proprietà nell'interesse pubblico: espropriazione\, requisizione\, 
+ edificabilità (08:15 - PINI MARIA ELENA) Studiare pagina 26
+END:VEVENT
+BEGIN:VEVENT
+UID:7f6881f13fd8f6b496d710503d1d8c543a7904b8@mastercom
+DTSTAMP:20261008T000000Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+SUMMARY:- Logos eracliteo - attività sul cambiamento (13:10 - FERRO PAOLO
+ ) - Ripasso comunità pitagoriche\; spiegazione filosofia
+DESCRIPTION:- Logos eracliteo - attività sul cambiamento (13:10 - FERRO P
+ AOLO) - Ripasso comunità pitagoriche\; spiegazione filosofia eraclitea (
+ 12:15 - FERRO PAOLO) - Copiatura tema bella copia (10:05 - CAMISOLI CHIAR
+ A) Portare Analisi e comprensione scritta sul testo Guglielmo d’Aquitan
+ ia p. 48 fatto in classe. Segue revisione + portare compiti assegnati per
+  1/10. Dal 28 ottobre iniziano le interrogazioni. Nel caso di diritto all
+ a programmazione\, comunicare alla docente la data di preferenza.
+END:VEVENT
+BEGIN:VEVENT
+UID:946e77aa573e5a6b1d261581e5d4a35fc8b39c1a@mastercom
+DTSTAMP:20261008T000000Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+SUMMARY:Portare fogli protocollo a righe per copiatura tema in bella
+DESCRIPTION:Portare fogli protocollo a righe per copiatura tema in bella
+END:VEVENT
+BEGIN:VEVENT
+UID:88dbae50fad7eeca83f2216b27770a8af0680f2d@mastercom
+DTSTAMP:20261008T000000Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+SUMMARY:Inglese: The Sign of Four - WRITTEN TEST (09:10 - OLMASTRONI VALEN
+ TINA) WELCOME BACK TEST The Sign of Four
+DESCRIPTION:Inglese: The Sign of Four - WRITTEN TEST (09:10 - OLMASTRONI V
+ ALENTINA) WELCOME BACK TEST The Sign of Four
+END:VEVENT
+BEGIN:VEVENT
+UID:1237e6a82c64fc1e0ac062fd857814666571dd1b@mastercom
+DTSTAMP:20261008T000000Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+SUMMARY:Diritto Ed Economia: - Teorie di Malthus\, Mill e Marx (08:15 - PI
+ NI MARIA ELENA) Studiare fino a pagina 365
+DESCRIPTION:Diritto Ed Economia: - Teorie di Malthus\, Mill e Marx (08:15 
+ - PINI MARIA ELENA) Studiare fino a pagina 365
+END:VEVENT
+BEGIN:VEVENT
+UID:57f9f8f2ee505d14147bde23038ab99d10d851ea@mastercom
+DTSTAMP:20261007T000000Z
+DTSTART;VALUE=DATE:20261007
+DTEND;VALUE=DATE:20261008
+SUMMARY:Diritto Ed Economia: Studiare fino a pagina 24
+DESCRIPTION:Diritto Ed Economia: Studiare fino a pagina 24
+END:VEVENT
+BEGIN:VEVENT
+UID:04f4d41089583861694b9eb79348e40e9efb78ff@mastercom
+DTSTAMP:20261007T000000Z
+DTSTART;VALUE=DATE:20261007
+DTEND;VALUE=DATE:20261008
+SUMMARY:Diritto Ed Economia: Finire Tema 1\, unità 1 diritto
+DESCRIPTION:Diritto Ed Economia: Finire Tema 1\, unità 1 diritto
+END:VEVENT
+BEGIN:VEVENT
+UID:2a70447f0a243a1fd7bd67cee40a2595dc46d431@mastercom
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261007
+SUMMARY:Inglese: From the origins to the end of the Middle Ages - The orig
+ ins of the UK: Celts\, Romans (13:10 - OLMASTRONI VALEN
+DESCRIPTION:Inglese: From the origins to the end of the Middle Ages - The 
+ origins of the UK: Celts\, Romans (13:10 - OLMASTRONI VALENTINA) Complete
+  ex. 3 on pag. 21 Study pag. 21. Complete the worksheet posted on Classro
+ om to revise connectors.
+END:VEVENT
+BEGIN:VEVENT
+UID:ce60fd8c1d783e10c6298aa8ffafe6679ab08894@mastercom
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261007
+SUMMARY:Scienze Umane: - Sociologia. C.W. Mills: l’immaginazione sociolo
+ gica e le sue funzioni. Esercitazione. (12:15 - LA MARRA
+DESCRIPTION:Scienze Umane: - Sociologia. C.W. Mills: l’immaginazione soc
+ iologica e le sue funzioni. Esercitazione. (12:15 - LA MARRA ALESSIA) - A
+ ntropologia: lo “sguardo da lontano”\, l’approccio emico e l’appr
+ occio etico. Chiarificazioni sul concetto di paradigma. Il metodo compara
+ tivo. (11:20 - LA MARRA ALESSIA) - Introduzione secondo capitolo prima un
+ ità didattica (lotta tra impero e papato)\; Ottone I e rinascita imperia
+ le (10:05 - FERRO PAOLO) Religione - Visita in Parrocchia. Preghiera e sp
+ iegazione davanti alla statua della madonna di Fatima (09:10 - GIULIANO M
+ ARTA) - Scomposizione di polinomi. Raccoglimento totale\, parziale (08:15
+  - GABBRIELLI GABRIELLA) studiare da pag 4 a pag 7. guardare esercizio sv
+ olto 75. es 68\,77\, 79\, 82\, 86\, pag 15 e 16
+END:VEVENT
+BEGIN:VEVENT
+UID:abbcd28176d738510b3c2cc278daa1b607001f24@mastercom
+DTSTAMP:20261002T000000Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:- divisione tra polinomi: procedimento euclideo. esercizi alla lav
+ agna degli studenti per consolidamento (13:10 - GABBRI
+DESCRIPTION:- divisione tra polinomi: procedimento euclideo. esercizi alla
+  lavagna degli studenti per consolidamento (13:10 - GABBRIELLI GABRIELLA)
+  - correzione compiti. esercizi (12:15 - GABBRIELLI GABRIELLA) es 22\, 23
+ \, 24\,28 a pag 13
+END:VEVENT
+BEGIN:VEVENT
+UID:07548508387ee929a268cda361ec9e354ac731e0@mastercom
+DTSTAMP:20261002T000000Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:Fisica - Cifre significative: definizione. Misura dei lati di un u
+ n set di triangoli rettangoli per analisi degli errori
+DESCRIPTION:Fisica - Cifre significative: definizione. Misura dei lati di 
+ un un set di triangoli rettangoli per analisi degli errori da discutere a
+ lla prossima lezione. (11:20 - NEGRELLO MATTIA) INGLESE Introduction to l
+ iterature - We are narrative beings (10:05 - OLMASTRONI VALENTINA) Study 
+ pag. 18 and 20. Complete ex. 2 on pag. 18\, writing in the notebook. Answ
+ er questions 4 and 6 from ex. 2 on pag. 20.
+END:VEVENT
+BEGIN:VEVENT
+UID:721b28842eeb9bec533f6b8ddcca921f36cc0974@mastercom
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:- Restituzione e analisi saggi “Mito-Logos” (13:10 - FERRO PAO
+ LO) - Ripasso teorie scuola di Mileto\; comunità pitagorich
+DESCRIPTION:- Restituzione e analisi saggi “Mito-Logos” (13:10 - FERRO
+  PAOLO) - Ripasso teorie scuola di Mileto\; comunità pitagoriche: caratt
+ eristiche\, eredità\, numero e numeorologia (12:15 - FERRO PAOLO) Revisi
+ one e correzione ad personam tema tipologia C - (10:05 - CAMISOLI CHIARA)
+  Ascoltare dal libro digitale la videosintesi “Capire il Medioevo” (a
+ ndare in "Risorse" - "risorse video" - "videosintesi" - "capire il medioe
+ vo") e farsi uno schema scritto sui concetti toccati. seguirà revisione 
+ e condivisione in classe. (Chi non ha il libro digitale\, seguire lo sche
+ ma p. 24).
+END:VEVENT
+BEGIN:VEVENT
+UID:81e0382e5bfcc5872c1b8fa7cd3572a3d5592163@mastercom
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:Inglese: Introduction to literature - What makes us human? What is
+  literature? (09:10 - OLMASTRONI VALENTINA) Portare il
+DESCRIPTION:Inglese: Introduction to literature - What makes us human? Wha
+ t is literature? (09:10 - OLMASTRONI VALENTINA) Portare il quaderno / iPa
+ d per appunti e il libro di inglese (Lifelines 1)
+END:VEVENT
+BEGIN:VEVENT
+UID:c18a4cd6f255ecc9b28a079aad72d3355564363a@mastercom
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:Diritto Ed Economia: - Liberismo e teoria classica\; A. Smith e J.
+ B. Say (08:15 - PINI MARIA ELENA) Studiare fino a pagin
+DESCRIPTION:Diritto Ed Economia: - Liberismo e teoria classica\; A. Smith 
+ e J.B. Say (08:15 - PINI MARIA ELENA) Studiare fino a pagina 161
+END:VEVENT
+BEGIN:VEVENT
+UID:a87893735711091ff60f9e908b83b987d156f2b8@mastercom
+DTSTAMP:20260930T000000Z
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+SUMMARY:Diritto Ed Economia: - Prosecuzione discussione sulla Pena di mort
+ e (13:10 - PINI MARIA ELENA) SPAGNOLO - Presentaciones
+DESCRIPTION:Diritto Ed Economia: - Prosecuzione discussione sulla Pena di 
+ morte (13:10 - PINI MARIA ELENA) SPAGNOLO - Presentaciones sobre los pers
+ onajes del mundo hispano (12:15 - MAGNANEGO GIULIA) Sviluppare sul quader
+ no tema tip C sulla base della scaletta fatta e delle indicazioni/correzi
+ oni fornite in classe. Servirsi degli strumenti (connettivi logici e “f
+ arsi venire le idee”) caricati su Classroom\, insieme alla griglia di c
+ orrezione. Seguirà correzione (no valutazione).
+END:VEVENT
+BEGIN:VEVENT
+UID:deeb21f1fbcf342c8e59b0d98343e0059b7dcb40@mastercom
+DTSTAMP:20260929T000000Z
+DTSTART;VALUE=DATE:20260929
+DTEND;VALUE=DATE:20260930
+SUMMARY:Inglese: Summer Reading - Final revision of The Sign of Four with 
+ mother tongue teacher (13:10 - OLMASTRONI VALENTINA) R
+DESCRIPTION:Inglese: Summer Reading - Final revision of The Sign of Four w
+ ith mother tongue teacher (13:10 - OLMASTRONI VALENTINA) Revise the story
+  "The SIgn of Four"
+END:VEVENT
+BEGIN:VEVENT
+UID:79ff0628a8aada100b600a94c9966e808501f554@mastercom
+DTSTAMP:20260929T000000Z
+DTSTART;VALUE=DATE:20260929
+DTEND;VALUE=DATE:20260930
+SUMMARY:Scienze Umane: - Che cos’è la società: inclinazione naturale\,
+  patto per necessità o contesto originario? Cenni ad Aristo
+DESCRIPTION:Scienze Umane: - Che cos’è la società: inclinazione natura
+ le\, patto per necessità o contesto originario? Cenni ad Aristotele\, Ho
+ bbes\, Giddens. (12:15 - LA MARRA ALESSIA) - Che cos’è la società? Br
+ ainstorming e attività esperienziale per distinguere il senso comune dal
+ lo sguardo scientifico. (11:20 - LA MARRA ALESSIA) - Impero abbaside: org
+ anizzazione sociopolitica e sincretismo culturale (10:05 - FERRO PAOLO) -
+  UdA 1 - La scommessa del Cristianesimo dalle origini al Monachesimo Tito
+ lo lezione: Dalla Pasqua alla nascita della Chiesa (09:10 - GIULIANO MART
+ A) - espressioni con divisioni tra polinomi e monomi (08:15 - GABBRIELLI 
+ GABRIELLA) esercizi 33\, 35\, 40 pag 13
+END:VEVENT
+BEGIN:VEVENT
+UID:4d61bc90d758f616ac9aee9f3d792b89e1bd0832@mastercom
+DTSTAMP:20260928T000000Z
+DTSTART;VALUE=DATE:20260928
+DTEND;VALUE=DATE:20260929
+SUMMARY:Scienze Umane: - Introduzione all’Antropologia: statuto discipli
+ nare\, differenza tra antropologia fisica e culturale\, fu
+DESCRIPTION:Scienze Umane: - Introduzione all’Antropologia: statuto disc
+ iplinare\, differenza tra antropologia fisica e culturale\, funzione dial
+ ogica e critico-riflessiva. (13:10 - LA MARRA ALESSIA) - Islam dopo Maome
+ tto: espansioni\, califfato\, scissione sunniti/sciiti\, inizio impero om
+ ayyade (12:15 - FERRO PAOLO) - La lirica trobadorica e le caratteristiche
+  dell’amore cortese pp. 39-40. Lettura e commento estratti da De Amore 
+ Cappellano pp. 41-41. (11:20 - CAMISOLI CHIARA) Studiare argomenti affron
+ tati nelle lezioni precedenti pp. 17-18\, 25-34: la frammentazione politi
+ ca\, culturale\, linguistica dopo 476. Dal latino alle lingue romanze. La
+  letteratura francese in lingua d’oil (romanzo cortese e Chanson) e car
+ atteristiche + testo letto e commentato in classe p. 29-31 “Rolando a R
+ oncisvalle”. Da adesso\, portare sempre libro (anche digitale) e quader
+ no.
+END:VEVENT
+BEGIN:VEVENT
+UID:bd515ba347d5acdfebf074d2bc09bc83b60b4e49@mastercom
+DTSTAMP:20260925T000000Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:- esercizi di consolidamento alla lavagna (13:10 - GABBRIELLI GABR
+ IELLA) - correzione compiti (12:15 - GABBRIELLI GABRIE
+DESCRIPTION:- esercizi di consolidamento alla lavagna (13:10 - GABBRIELLI 
+ GABRIELLA) - correzione compiti (12:15 - GABBRIELLI GABRIELLA) studiare p
+ ag. 2 e 3 fino a divisibilità di un polinomio per un monomio . esercizi:
+  finire es 32- es. 34\, 36\, 37 pag 13
+END:VEVENT
+BEGIN:VEVENT
+UID:0e18f75a4741449a8dbcb2d152b56736f3ed57ac@mastercom
+DTSTAMP:20260925T000000Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:Fisica - Discussione del programma che verrà affrontato quest’a
+ nno (11:20 - NEGRELLO MATTIA) INGLESE The Sign of Four - 
+DESCRIPTION:Fisica - Discussione del programma che verrà affrontato quest
+ ’anno (11:20 - NEGRELLO MATTIA) INGLESE The Sign of Four - Grammar - na
+ rrative past tenses (10:05 - OLMASTRONI VALENTINA) Complete the sentences
+  started in class about the description of characters.
+END:VEVENT
+BEGIN:VEVENT
+UID:d6d5ca6d14d6899c98f8e5e0c89d83b1e1837c81@mastercom
+DTSTAMP:20260924T000000Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:- Elezione rappresentanti di classe (13:10 - FERRO PAOLO) - Stesur
+ a saggio: dal mito al logos (12:15 - FERRO PAOLO) Port
+DESCRIPTION:- Elezione rappresentanti di classe (13:10 - FERRO PAOLO) - St
+ esura saggio: dal mito al logos (12:15 - FERRO PAOLO) Portare tablet per 
+ stesura saggio argomentativo in classe
+END:VEVENT
+BEGIN:VEVENT
+UID:14eeecb0063f3e6c5a49cc1f4ed753696627c84d@mastercom
+DTSTAMP:20260924T000000Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:Storia Dell'Arte: - Preistoria e sue prime opere (11:20 - GIROMINI
+  STEFANIA) - Lettura e commento testuale p.29-31 Rolan
+DESCRIPTION:Storia Dell'Arte: - Preistoria e sue prime opere (11:20 - GIRO
+ MINI STEFANIA) - Lettura e commento testuale p.29-31 Rolando a Roncisvall
+ e. Indicazioni sull’approccio ai testi poetici. Spiegazione griglia cor
+ rezione tipologie testuali (caricata su Classroom). (10:05 - CAMISOLI CHI
+ ARA) INGLESE The Sign of Four - Grammar - past tenses (09:10 - OLMASTRONI
+  VALENTINA) Create the map of the plot of The Sign of Four\, only using k
+ eywords
+END:VEVENT
+BEGIN:VEVENT
+UID:54d08129c7f83cb4cf45f202827366159d57002d@mastercom
+DTSTAMP:20260924T000000Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:Diritto Ed Economia: - Società capitalista\; visione estratto da 
+ Tempi moderni (08:15 - PINI MARIA ELENA) Leggere introdu
+DESCRIPTION:Diritto Ed Economia: - Società capitalista\; visione estratto
+  da Tempi moderni (08:15 - PINI MARIA ELENA) Leggere introduzione economi
+ a\; studiare pagine 354-356
+END:VEVENT
+BEGIN:VEVENT
+UID:8e0edfc32436fbacc456467d37892afc9dc0477a@mastercom
+DTSTAMP:20260923T000000Z
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20260924
+SUMMARY:Diritto Ed Economia: - Diritti della persona: diritto alla vita\, 
+ lettura norme costituzionali\, internazionali (Dudu e Ce
+DESCRIPTION:Diritto Ed Economia: - Diritti della persona: diritto alla vit
+ a\, lettura norme costituzionali\, internazionali (Dudu e Cedu) e del cod
+ ice civile (13:10 - PINI MARIA ELENA) Studiare fino a pagina 14
+END:VEVENT
+BEGIN:VEVENT
+UID:95fcfa2d855316d8a9ccc9733ea1145bbf4b9389@mastercom
+DTSTAMP:20260923T000000Z
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20260924
+SUMMARY:Spagnolo: - Presentaciones sobre los personajes del mundo hispáni
+ co (12:15 - MAGNANEGO GIULIA) Revisar los 4 pasados (fo
+DESCRIPTION:Spagnolo: - Presentaciones sobre los personajes del mundo hisp
+ ánico (12:15 - MAGNANEGO GIULIA) Revisar los 4 pasados (formación y uso
+ ) en los apuntes (también los tenéis en Classroom). En “Gramática li
+ sta” hacer los ejercicios de las siguientes páginas: 103\; 105\; 107\;
+  109.
+END:VEVENT
+BEGIN:VEVENT
+UID:b903b77b243744a1fbc2c53d3c5c24cca5cffe42@mastercom
+DTSTAMP:20260923T000000Z
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20260924
+SUMMARY:Spagnolo: Letteratura - Scrittura tip C - La frammentazione politi
+ ca\, culturale\, linguistica dopo 476. Dal latino alle l
+DESCRIPTION:Spagnolo: Letteratura - Scrittura tip C - La frammentazione po
+ litica\, culturale\, linguistica dopo 476. Dal latino alle lingue romanze
+ . La letteratura francese in lingua d’oil (romanzo cortese e Chanson) e
+  caratteristiche. Cenno alla lirica provenzale in lingua d’oc. Pp. 17-1
+ 8 (lettura in classe) e 25-34. Revisione e correzione scaletta tip C. (10
+ :05 - CAMISOLI CHIARA) Sulla base della scaletta fornita in classe sulla 
+ Tipologia C\, provare a fare sul quaderno una scaletta della traccia cari
+ cata su Classroom\, inserendo anche opportuni e specifici esempi. Prender
+ e visione dei compiti fissati fino a dicembre. Iniziamo Letteratura. Port
+ are libro.
+END:VEVENT
+BEGIN:VEVENT
+UID:f300e091a359b56a5fb4d9d2e8a1d9b3acdb3fb0@mastercom
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260922
+DTEND;VALUE=DATE:20260923
+SUMMARY:Inglese: The Sign of Four - how to map the plot (13:10 - OLMASTRON
+ I VALENTINA) The sign of four: finire la mappa dei per
+DESCRIPTION:Inglese: The Sign of Four - how to map the plot (13:10 - OLMAS
+ TRONI VALENTINA) The sign of four: finire la mappa dei personaggi
+END:VEVENT
+BEGIN:VEVENT
+UID:19e6309b959e7755eb9e347424a2ac0c78201623@mastercom
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260922
+DTEND;VALUE=DATE:20260923
+SUMMARY:Inglese: - Filosofia: mito\, logos\, arché (10:05 - FERRO PAOLO) 
+ Religione - Introduzione (09:10 - GIULIANO MARTA) - la di
+DESCRIPTION:Inglese: - Filosofia: mito\, logos\, arché (10:05 - FERRO PAO
+ LO) Religione - Introduzione (09:10 - GIULIANO MARTA) - la divisibilità 
+ tra un polinomio ed un monomio (08:15 - GABBRIELLI GABRIELLA) ripassare p
+ rodotti notevoli\, operazioni tra frazioni\, equazioni frazionarie (libro
+  di II a pag 224_225 unità 6) e studiare es. 6 già svolto sul libro di 
+ II a pag 232. PORTARE QUADERNO A QUADRETTI
+END:VEVENT
+BEGIN:VEVENT
+UID:26ffd7559a70c7e85558b26246300e8ab5ad1eff@mastercom
+DTSTAMP:20260921T000000Z
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260922
+SUMMARY:Spagnolo: Revisar los 4 pasados (formación y uso) en los apuntes 
+ (también los tenéis en Classroom). En “Gramática lista”
+DESCRIPTION:Spagnolo: Revisar los 4 pasados (formación y uso) en los apun
+ tes (también los tenéis en Classroom). En “Gramática lista” hacer 
+ los ejercicios de las siguientes páginas: 95\; 97\; 99\; 101.
+END:VEVENT
+BEGIN:VEVENT
+UID:7d1e14d4fd8b48fdc7bb41044a246e55da5dba9e@mastercom
+DTSTAMP:20260917T000000Z
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+SUMMARY:- Spiegazione (vedi sopra)\; quiz laboratorio Bibbia/Corano (13:10
+  - FERRO PAOLO) - Storia: presentazione prima unità did
+DESCRIPTION:- Spiegazione (vedi sopra)\; quiz laboratorio Bibbia/Corano (1
+ 3:10 - FERRO PAOLO) - Storia: presentazione prima unità didattica. Spieg
+ azione nascita e sviluppi del culto islamico. (12:15 - FERRO PAOLO) STORI
+ A DELL'ARTE - Presentazione programma di storia dell’arte. Presentazion
+ e programma di educazione civica. (11:20 - GIROMINI STEFANIA) Tipologie t
+ estuali - Spiegazione delle tipologie testuali A\, B\, C. Focus sulla tip
+ ologia C: le caratteristiche di un testo espositivo-argomentativo\; la sc
+ aletta (schema alla lim). (10:05 - CAMISOLI CHIARA) Portare quaderno di I
+ taliano
+END:VEVENT
 END:VCALENDAR
