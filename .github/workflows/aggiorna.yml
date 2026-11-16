@@ -7,6 +7,7 @@ permissions:
   contents: write
 jobs:
   aggiorna:
+    if: ${{ github.event_name == 'workflow_dispatch' || vars.ATTIVO == 'true' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
