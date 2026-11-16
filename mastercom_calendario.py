@@ -37,7 +37,8 @@ def apri_voce(pg, nome):
     def prova():
         for el in pg.get_by_text(nome, exact=True).all():
             try:
-                if el.is_visible():
+                bb = el.bounding_box() if el.is_visible() else None
+                if bb and 0 <= bb["x"] < 800 and bb["y"] >= 0:
                     el.click(timeout=3000)
                     return True
             except Exception:
@@ -56,15 +57,23 @@ def apri_voce(pg, nome):
     raise RuntimeError(f"non trovo la voce '{nome}'. Pagina: {pg.url.split('?')[0]}. Voci viste: {menu_visibile(pg)}")
 
 
-def attendi_cambio(pg):
-    """Controlla che si sia aperta una pagina diversa dalla Home."""
-    pg.wait_for_load_state("networkidle")
-    pg.wait_for_timeout(1500)
-    try:
-        pg.get_by_text("Aggiorna Google Classroom").first.wait_for(state="hidden", timeout=10000)
-    except Exception:
-        raise RuntimeError("la pagina e' rimasta la Home dopo il clic sul menu")
-    pg.wait_for_timeout(2000)
+def attendi_pagina(pg, marcatori, anche_con_home):
+    """Aspetta fino a 16 secondi che compaia la pagina cercata (anche in altre schede o frame)."""
+    for _ in range(16):
+        pg.wait_for_timeout(1000)
+        for pagina in pg.context.pages:
+            for fr in pagina.frames:
+                try:
+                    t = fr.locator("body").inner_text(timeout=2000)
+                except Exception:
+                    continue
+                if not any(m in t for m in marcatori):
+                    continue
+                if anche_con_home or "Aggiorna Google Classroom" not in t:
+                    return t
+    schede = len(pg.context.pages)
+    frame = sum(len(p.frames) for p in pg.context.pages)
+    raise RuntimeError(f"la pagina e' rimasta la Home. Indirizzo: {pg.url.split('?')[0]}; schede: {schede}; frame: {frame}")
 
 
 def scarica(utente, password):
@@ -103,15 +112,13 @@ def scarica(utente, password):
                 raise RuntimeError("LOGIN NON RIUSCITO (mi fermo, non riprovo). Messaggio del sito: " + (msg or "nessuno"))
             try:
                 apri_voce(pg, "Argomenti e Compiti")
-                attendi_cambio(pg)
+                compiti = attendi_pagina(pg, ["Inserito il", "Reset filtri", "Elenco"], True)
             except RuntimeError as e:
                 raise RuntimeError("LOGIN OK ma " + str(e))
-            compiti = pg.inner_text("body")
             voti = None
             try:
                 apri_voce(pg, "Voti")
-                attendi_cambio(pg)
-                voti = pg.inner_text("body")
+                voti = attendi_pagina(pg, [""], False)
             except Exception as e:
                 print("Voti non letti:", e)
             return compiti, voti
