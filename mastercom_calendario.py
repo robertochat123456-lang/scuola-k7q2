@@ -6,12 +6,30 @@
 Si esegue una volta sola: a ripeterlo ogni 15 minuti pensa GitHub Actions."""
 import os, re, json, base64, hashlib, getpass, datetime as dt
 
-URL = "https://steam-bo.registroelettronico.com/mastercom/"
+URL = "https://salesianifirenze.registroelettronico.com/mastercom/index.php"
 QUI = os.path.dirname(os.path.abspath(__file__))
 DOCS = os.path.join(QUI, "docs")
 MESI = {m: i + 1 for i, m in enumerate("gennaio febbraio marzo aprile maggio giugno luglio agosto settembre ottobre novembre dicembre".split())}
 GIORNI = {"lunedì", "martedì", "mercoledì", "giovedì", "venerdì", "sabato", "domenica"}
 STATI = {"da fare", "fatto"}
+
+
+CHIAVI = ["home", "voti", "compiti", "argomenti", "assenze", "note", "agenda", "orario", "colloqui",
+          "pagelle", "comunicazioni", "messaggi", "scrutini", "bacheca", "materiale", "lezioni", "presenze"]
+
+
+def menu_visibile(pg):
+    """Elenca solo voci di menu note (mai nomi o dati personali)."""
+    try:
+        testi = pg.locator("a, button, [role=button], li").all_inner_texts()
+    except Exception:
+        return "?"
+    viste = []
+    for t in testi:
+        t = " ".join(t.split())
+        if 0 < len(t) < 40 and any(k in t.lower() for k in CHIAVI) and t not in viste:
+            viste.append(t)
+    return "; ".join(viste[:15]) or "nessuna voce riconosciuta"
 
 
 def apri_voce(pg, nome, esatto=False):
@@ -28,7 +46,7 @@ def apri_voce(pg, nome, esatto=False):
             return
         except Exception:
             continue
-    raise RuntimeError(f"non trovo la voce '{nome}'. Pagina: " + pg.url.split("?")[0])
+    raise RuntimeError(f"non trovo la voce '{nome}'. Pagina: {pg.url.split('?')[0]}. Voci viste: {menu_visibile(pg)}")
 
 
 def scarica(utente, password):
@@ -38,28 +56,33 @@ def scarica(utente, password):
         pg = b.new_page(viewport={"width": 820, "height": 1180})
         try:
             pg.goto(URL, wait_until="networkidle")
-            campo_u = pg.get_by_placeholder("Inserisci qui il tuo codice utente")
-            campo_p = pg.get_by_placeholder("Inserisci qui la tua password")
-            campo_u.wait_for(timeout=15000)
-            campo_u.click(); campo_u.press_sequentially(utente, delay=40)
-            campo_p.click(); campo_p.press_sequentially(password, delay=40)
+            pw = pg.locator("input[type=password]").first
+            pw.wait_for(timeout=20000)
+            us = pg.locator("input:not([type=password]):not([type=hidden]):not([type=checkbox]):not([type=submit])").first
+            us.click(); us.press_sequentially(utente, delay=40)
+            pw.click(); pw.press_sequentially(password, delay=40)
+            inviato = False
+            for nome in ("Entra", "Accedi", "Login", "Invia", "Conferma"):
+                bott = pg.get_by_role("button", name=nome, exact=True)
+                if bott.count():
+                    bott.first.click(); inviato = True
+                    break
+            if not inviato:
+                pw.press("Enter")
             try:
-                pg.get_by_role("button", name="Entra", exact=True).click(timeout=4000)
-            except Exception:
-                pg.get_by_text("Entra", exact=True).first.click(timeout=4000)
-            try:
-                campo_p.wait_for(state="detached", timeout=20000)
+                pw.wait_for(state="detached", timeout=20000)
             except Exception:
                 pass
             pg.wait_for_load_state("networkidle")
-            pg.wait_for_timeout(2000)
-            if campo_p.count() and campo_p.first.is_visible():
+            pg.wait_for_timeout(2500)
+            campo = pg.locator("input[type=password]")
+            if campo.count() and campo.first.is_visible():
                 msg = ""
                 try:
-                    msg = pg.locator("[role=alert], [class*=error i], [class*=notif i]").first.inner_text(timeout=1500)[:100]
+                    msg = pg.locator("[role=alert], [class*=error i], [class*=notif i], [class*=toast i]").first.inner_text(timeout=1500)[:100]
                 except Exception:
                     pass
-                raise RuntimeError("LOGIN NON RIUSCITO: la pagina di accesso e' ancora visibile. Messaggio del sito: " + (msg or "nessuno"))
+                raise RuntimeError("LOGIN NON RIUSCITO (mi fermo, non riprovo). Messaggio del sito: " + (msg or "nessuno"))
             try:
                 apri_voce(pg, "Argomenti e Compiti")
             except RuntimeError as e:
