@@ -126,8 +126,40 @@ def scarica(utente, password):
             b.close()
 
 
+def normalizza(testo):
+    """Rende il testo della pagina piu' regolare: una cella per riga, data su righe separate."""
+    out = []
+    for r in testo.replace("\t", "\n").splitlines():
+        r = r.strip()
+        if not r:
+            continue
+        m = re.fullmatch(r"(\d{1,2})\s+([A-Za-zÀ-ÿ]+)(?:\s+([A-Za-zÀ-ÿ]+))?", r)
+        if m and m.group(2).lower() in MESI and (not m.group(3) or m.group(3).lower() in GIORNI):
+            out += [m.group(1), m.group(2)] + ([m.group(3)] if m.group(3) else [])
+            continue
+        m = re.fullmatch(r"(Da fare|Fatto)\s+(Inserito il.*)", r, re.I)
+        if m:
+            out += [m.group(1), m.group(2)]
+            continue
+        out.append(r)
+    return out
+
+
+def forma(testo, n=70):
+    """Mostra solo la 'forma' del testo (lettere -> a/A, cifre -> 9): niente dati personali."""
+    righe = testo.replace("\t", "→").splitlines()
+    inizio = next((i for i, r in enumerate(righe) if "Elenco" in r), 0)
+    out = []
+    for r in righe[inizio:inizio + n]:
+        r = r.strip()
+        if r:
+            r = re.sub(r"\d", "9", re.sub(r"[A-ZÀ-Ý]", "A", re.sub(r"[a-zà-ÿ]", "a", r)))
+            out.append(r[:50])
+    return "\n".join(out)
+
+
 def analizza(testo):
-    righe = [r.strip() for r in testo.splitlines() if r.strip()]
+    righe = normalizza(testo)
     n, i = len(righe), 0
     voci, giorno, mese, materia, buf = [], None, None, "", []
     oggi = dt.date.today()
@@ -222,8 +254,10 @@ def main():
     compiti, voti = scarica(utente, password)
     voci = analizza(compiti)
     if not voci:
-        righe = len([r for r in compiti.splitlines() if r.strip()])
-        raise RuntimeError(f"Nessun compito riconosciuto nella pagina letta ({righe} righe): non salvo niente")
+        linee = compiti.splitlines()
+        conta = {k: sum(1 for r in linee if k in r) for k in ("Da fare", "Fatto", "Inserito il")}
+        mesi = sum(1 for r in linee if any(m in r.lower() for m in MESI))
+        raise RuntimeError(f"Nessun compito riconosciuto ({len(linee)} righe; {conta}; righe con un mese: {mesi}). Forma del testo:\n" + forma(compiti))
     os.makedirs(DOCS, exist_ok=True)
     with open(os.path.join(DOCS, "dati.json"), "w", encoding="utf-8") as f:
         json.dump({"voci": [{"d": v["data"].isoformat(), "m": v["materia"], "t": v["testo"], "f": v["fatto"]} for v in voci]}, f, ensure_ascii=False, indent=0)
